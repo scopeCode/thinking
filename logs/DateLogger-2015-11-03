@@ -1,0 +1,200 @@
+[2015-11-03 16:56:20.297] [INFO] console - Express server listening on port 3000
+[2015-11-03 16:56:24.146] [ERROR] dev-error - ReferenceError: ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:7:9
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 16:59:29.071] [INFO] console - Express server listening on port 3000
+[2015-11-03 16:59:32.571] [ERROR] dev-error - ReferenceError: ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:7:9
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 16:59:51.368] [ERROR] normal - GET /dews
+[2015-11-03 16:59:51.368] [ERROR] console - Error: Failed to lookup view "error" in views directory "e:\NewWork\git\thinking\views"
+    at EventEmitter.render (e:\NewWork\git\thinking\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (e:\NewWork\git\thinking\node_modules\express\lib\response.js:961:7)
+    at e:\NewWork\git\thinking\app.js:36:9
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\app.js:31:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:03:27.957] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:03:31.180] [ERROR] normal - GET /dews
+[2015-11-03 17:03:31.181] [ERROR] console - Error: Failed to lookup view "errors/404" in views directory "e:\NewWork\git\thinking\views"
+    at EventEmitter.render (e:\NewWork\git\thinking\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (e:\NewWork\git\thinking\node_modules\express\lib\response.js:961:7)
+    at e:\NewWork\git\thinking\app.js:37:13
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\app.js:31:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:04:47.135] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:04:50.070] [ERROR] normal - GET /dews
+[2015-11-03 17:05:53.852] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:05:55.395] [ERROR] normal - GET /dews
+[2015-11-03 17:06:11.627] [ERROR] normal - GET /dews
+[2015-11-03 17:06:14.866] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:06:16.268] [ERROR] normal - GET /dews
+[2015-11-03 17:06:17.206] [ERROR] normal - GET /dews
+[2015-11-03 17:06:30.646] [ERROR] dev-error - ReferenceError: ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:7:9
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:07:03.315] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:07:04.519] [ERROR] dev-error - ReferenceError: ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:7:9
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:07:45.837] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:07:47.336] [ERROR] dev-error - ReferenceError: ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:8:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:08:36.525] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:08:37.496] [ERROR] dev-error - ReferenceError: ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:8:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:09:37.638] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:09:39.566] [ERROR] dev-error - Error: 服务器异常
+    at e:\NewWork\git\thinking\routes.js:11:23
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:10:23.056] [ERROR] dev-error - Error: 服务器异常
+    at e:\NewWork\git\thinking\routes.js:11:23
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:10:44.664] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:10:44.841] [ERROR] dev-error - Error: 服务器异常 messgae:ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:11:23
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at expressInit (e:\NewWork\git\thinking\node_modules\express\lib\middleware\init.js:33:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-03 17:11:53.160] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:15:39.472] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:34:21.686] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:35:14.537] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:37:16.688] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:37:33.944] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:38:20.873] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:42:47.801] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:44:49.286] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:45:47.872] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:45:52.619] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:46:27.239] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:47:37.854] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:47:41.010] [INFO] normal - GET /
+[2015-11-03 17:47:48.049] [ERROR] normal - GET /werwe
+[2015-11-03 17:47:48.117] [ERROR] normal - GET /stylesheets/error.png
+[2015-11-03 17:48:24.627] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:48:26.090] [ERROR] normal - GET /werwe
+[2015-11-03 17:48:41.042] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:48:42.687] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:02.090] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:49:09.853] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:11.102] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:11.301] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:11.449] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:11.693] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:11.940] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:12.268] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:32.542] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:49:34.065] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:38.931] [INFO] normal - GET /
+[2015-11-03 17:49:46.812] [ERROR] normal - GET /public/stylesheets/error_all.css?cnd=1231231
+[2015-11-03 17:49:48.379] [INFO] normal - GET /
+[2015-11-03 17:49:49.639] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:50.057] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:50.266] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:50.636] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:50.893] [ERROR] normal - GET /werwe
+[2015-11-03 17:49:56.926] [ERROR] normal - GET /werwe
+[2015-11-03 17:51:14.427] [ERROR] normal - GET /werwe
+[2015-11-03 17:51:33.561] [ERROR] normal - GET /werwe
+[2015-11-03 17:51:38.154] [INFO] normal - GET /
+[2015-11-03 17:51:41.230] [WARN] normal - GET /
+[2015-11-03 17:51:47.710] [WARN] normal - GET /
+[2015-11-03 17:51:47.854] [WARN] normal - GET /
+[2015-11-03 17:51:48.005] [WARN] normal - GET /
+[2015-11-03 17:52:29.241] [ERROR] normal - GET /werwe
+[2015-11-03 17:54:41.440] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:54:49.356] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:54:51.018] [ERROR] normal - GET /werwe
+[2015-11-03 17:54:52.223] [ERROR] normal - GET /
+[2015-11-03 17:54:53.987] [ERROR] normal - GET /
+[2015-11-03 17:54:57.358] [ERROR] normal - GET /
+[2015-11-03 17:54:57.838] [ERROR] normal - GET /
+[2015-11-03 17:55:05.922] [INFO] console - Express server listening on port 3000
+[2015-11-03 17:55:08.180] [INFO] normal - GET /
+[2015-11-03 17:55:08.928] [WARN] normal - GET /
+[2015-11-03 17:55:09.136] [WARN] normal - GET /
+[2015-11-03 17:55:09.300] [WARN] normal - GET /
+[2015-11-03 17:55:09.457] [WARN] normal - GET /
+[2015-11-03 17:55:14.995] [ERROR] normal - GET /wqwer

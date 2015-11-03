@@ -1,2 +1,10 @@
 1:需要安装全局变量
 npm i mocha --save-dev    [测试用的]
+
+2:在请求里面获取cookies
+JSON.stringify(req.cookies);
+//清空session # Destroying a session
+req.session = null
+
+
+global.logger = logger.logger("global");
