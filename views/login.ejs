@@ -49,19 +49,19 @@
 
     <div class="form-group row">
       <div class="col-md-12">
-        <input name="UserName" type="email" maxlength="79" min="5" class="form-control input-lg" placeholder="邮箱地址" required="" autofocus="">
+        <input id="UserName" name="UserName" value="1@163.com" type="email" maxlength="79" min="5" class="form-control input-lg" placeholder="邮箱地址" required="" autofocus="">
       </div>
     </div>
 
     <div class="form-group row">
       <div class="col-md-12">
-        <input name="Password" type="password" class="form-control input-lg" maxlength="12" min="6" placeholder="登录密码" required="" autofocus="">
+        <input id="Password" name="Password" type="password" class="form-control input-lg" maxlength="12" min="6" placeholder="登录密码" required="" autofocus="">
       </div>
     </div>
 
     <div class="form-group row">
       <div class="col-md-11">
-        <button class="btn btn-lg btn-primary" type="submit" style="width: 120px;">登录</button>
+        <button class="btn btn-lg btn-primary" type="button" id="btnLogin" style="width: 120px;">登录</button>
         <a href="#" class="btn btn-lg btn-success" style="width: 120px;">注册</a>
       </div>
     </div>
@@ -81,5 +81,39 @@
     Copyright © 2013 FaceCore. All Rights Reserved. FaceCore 版权所有
   </p>
 </div>
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+
+    $("#btnLogin").on("click",function(){
+      var uName = $("#UserName").val();
+      var uPwd  = $("#Password").val();
+
+      var data = "userName="+uName+"&userPwd="+uPwd;
+
+      console.log(data);
+      var host = 'http://'+window.location.host;
+      $.ajax({
+        url:host+'/login',
+        type:'POST',
+        data:data,
+        success:function(data,status){
+          if(data.result==1 && status == 'success'){
+            location.href=host;
+          }else{
+            console.log(data.msg);
+          }
+        },
+        error:function(res){
+          console.error(res);
+        }
+      });
+    });
+
+  });
+
+</script>
+
 </body>
 </html>

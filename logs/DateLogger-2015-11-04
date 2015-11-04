@@ -724,3 +724,1627 @@ title is not defined
 [2015-11-04 14:15:56.624] [INFO] dev-error - controllers/login/login.js
 [2015-11-04 14:15:56.624] [INFO] dev-error - controllers/login/login.js
 [2015-11-04 14:15:56.625] [WARN] normal - GET /login
+[2015-11-04 15:52:35.297] [INFO] console - Express server listening on port 3000
+[2015-11-04 15:52:37.240] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:52:37.241] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 15:52:37.319] [INFO] normal - GET /login
+[2015-11-04 15:52:38.287] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:52:38.287] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 15:52:38.296] [WARN] normal - GET /login
+[2015-11-04 15:55:45.677] [INFO] console - Express server listening on port 3000
+[2015-11-04 15:55:45.962] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:55:45.962] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 15:55:45.984] [INFO] normal - GET /login
+[2015-11-04 15:56:07.811] [INFO] console - Express server listening on port 3000
+[2015-11-04 15:56:12.914] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:56:12.957] [ERROR] normal - POST /login
+[2015-11-04 15:56:12.957] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:121:14)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:125:14)
+    at exports.notAuthentication (e:\NewWork\git\thinking\controllers\login\login.js:78:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 15:56:40.897] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:56:40.897] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 15:56:40.900] [WARN] normal - GET /login
+[2015-11-04 15:56:51.274] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:56:51.276] [ERROR] normal - POST /login
+[2015-11-04 15:56:51.276] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:121:14)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:125:14)
+    at exports.notAuthentication (e:\NewWork\git\thinking\controllers\login\login.js:78:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 15:57:02.019] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:57:02.023] [ERROR] normal - POST /login
+[2015-11-04 15:57:02.024] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:121:14)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:125:14)
+    at exports.notAuthentication (e:\NewWork\git\thinking\controllers\login\login.js:78:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 15:57:24.035] [ERROR] normal - GET /login/login
+[2015-11-04 15:57:24.035] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at session (e:\NewWork\git\thinking\node_modules\express-session\index.js:402:7)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 15:57:26.474] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:57:26.474] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 15:57:26.475] [WARN] normal - GET /login
+[2015-11-04 15:57:26.607] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:57:26.607] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 15:57:26.609] [WARN] normal - GET /login
+[2015-11-04 15:57:53.634] [INFO] console - Express server listening on port 3000
+[2015-11-04 15:58:25.163] [INFO] console - Express server listening on port 3000
+[2015-11-04 15:58:25.467] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:58:25.467] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 15:58:25.543] [INFO] normal - GET /login
+[2015-11-04 15:58:33.749] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:58:33.749] [INFO] dev-error - controllers/login/login.js  -- signIn
+[2015-11-04 15:58:33.749] [INFO] dev-error - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 15:58:33.751] [INFO] dev-error - 123456的MD5值:e10adc3949ba59abbe56e057f20f883e
+[2015-11-04 15:58:33.768] [ERROR] normal - POST /login
+[2015-11-04 15:58:33.769] [ERROR] dev-error - ReferenceError: uName is not defined
+    at exports.signIn (e:\NewWork\git\thinking\controllers\login\login.js:40:8)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:125:14)
+    at exports.notAuthentication (e:\NewWork\git\thinking\controllers\login\login.js:78:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+[2015-11-04 15:59:04.607] [INFO] console - Express server listening on port 3000
+[2015-11-04 15:59:05.856] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:59:05.857] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 15:59:05.870] [WARN] normal - GET /login
+[2015-11-04 15:59:13.290] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 15:59:13.290] [INFO] dev-error - controllers/login/login.js  -- signIn
+[2015-11-04 15:59:13.290] [INFO] dev-error - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 15:59:13.292] [INFO] dev-error - 123456的MD5值:e10adc3949ba59abbe56e057f20f883e
+[2015-11-04 15:59:13.294] [ERROR] normal - POST /login
+[2015-11-04 16:01:01.247] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:01:02.326] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:01:02.327] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:01:02.338] [WARN] normal - GET /login
+[2015-11-04 16:01:12.365] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:01:12.365] [INFO] dev-error - controllers/login/login.js  -- signIn
+[2015-11-04 16:01:12.365] [INFO] dev-error - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 16:01:12.367] [INFO] dev-error - 123456的MD5值:e10adc3949ba59abbe56e057f20f883e
+[2015-11-04 16:01:12.369] [INFO] normal - POST /login
+[2015-11-04 16:01:22.931] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:01:22.966] [WARN] normal - GET /
+[2015-11-04 16:01:22.977] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:01:22.977] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:01:22.979] [INFO] normal - GET /login
+[2015-11-04 16:02:28.681] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:02:29.801] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:02:29.801] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:02:29.814] [INFO] normal - GET /login
+[2015-11-04 16:02:32.797] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:02:32.797] [INFO] dev-error - controllers/login/login.js  -- signIn
+[2015-11-04 16:02:32.797] [INFO] dev-error - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 16:02:32.799] [INFO] dev-error - 123456的MD5值:e10adc3949ba59abbe56e057f20f883e
+[2015-11-04 16:02:32.802] [INFO] normal - POST /login
+[2015-11-04 16:03:13.594] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:03:13.594] [INFO] dev-error - controllers/login/login.js  -- signIn
+[2015-11-04 16:03:13.594] [INFO] dev-error - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 16:03:13.594] [INFO] dev-error - 123456的MD5值:e10adc3949ba59abbe56e057f20f883e
+[2015-11-04 16:03:13.598] [INFO] normal - POST /login
+[2015-11-04 16:04:05.834] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:04:06.608] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:04:06.608] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:04:06.621] [INFO] normal - GET /login
+[2015-11-04 16:04:09.765] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:04:09.765] [INFO] dev-error - controllers/login/login.js  -- signIn
+[2015-11-04 16:04:09.765] [INFO] dev-error - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 16:04:09.767] [INFO] dev-error - e10adc3949ba59abbe56e057f20f883e的MD5值:14e1b600b1fd579f47433b88e8d85291
+[2015-11-04 16:04:09.770] [INFO] normal - POST /login
+[2015-11-04 16:04:09.776] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:04:09.776] [INFO] dev-error - controllers/index.js
+[2015-11-04 16:04:09.782] [INFO] normal - GET /
+[2015-11-04 16:04:15.057] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:04:15.057] [INFO] dev-error - controllers/index.js
+[2015-11-04 16:04:15.059] [WARN] normal - GET /
+[2015-11-04 16:04:19.335] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:04:19.336] [INFO] dev-error - controllers/index.js
+[2015-11-04 16:04:19.337] [WARN] normal - GET /
+[2015-11-04 16:04:23.232] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:04:23.233] [ERROR] normal - GET /sd
+[2015-11-04 16:04:26.386] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:04:26.387] [ERROR] normal - GET /sd23423
+[2015-11-04 16:04:30.609] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:04:30.609] [ERROR] normal - GET /sd23423234
+[2015-11-04 16:05:38.623] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:05:38.624] [ERROR] normal - GET /sd23423234
+[2015-11-04 16:05:40.653] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:05:40.653] [INFO] dev-error - controllers/index.js
+[2015-11-04 16:05:40.658] [WARN] normal - GET /
+[2015-11-04 16:06:02.880] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:06:02.881] [INFO] dev-error - controllers/index.js
+[2015-11-04 16:06:02.885] [WARN] normal - GET /
+[2015-11-04 16:06:07.029] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:06:07.030] [ERROR] normal - GET /e
+[2015-11-04 16:16:09.732] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:16:52.238] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:16:52.246] [WARN] normal - GET /
+[2015-11-04 16:16:52.250] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:16:52.251] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:16:52.259] [INFO] normal - GET /login
+[2015-11-04 16:16:59.217] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:16:59.217] [ERROR] normal - GET /123123
+[2015-11-04 16:17:03.887] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:17:03.887] [ERROR] normal - GET /123123123123
+[2015-11-04 16:17:14.879] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:17:14.879] [ERROR] normal - GET /123123123123
+[2015-11-04 16:17:16.023] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:17:16.023] [ERROR] normal - GET /123123
+[2015-11-04 16:17:21.020] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:17:21.022] [WARN] normal - GET /
+[2015-11-04 16:17:21.023] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:17:21.023] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:17:21.024] [WARN] normal - GET /login
+[2015-11-04 16:17:22.651] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:17:22.651] [INFO] dev-error - controllers/login/login.js  -- signIn
+[2015-11-04 16:17:22.651] [INFO] dev-error - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 16:17:22.653] [INFO] dev-error - e10adc3949ba59abbe56e057f20f883e的MD5值:14e1b600b1fd579f47433b88e8d85291
+[2015-11-04 16:17:22.655] [INFO] normal - POST /login
+[2015-11-04 16:17:22.661] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:17:22.662] [INFO] dev-error - controllers/index.js
+[2015-11-04 16:17:22.663] [INFO] normal - GET /
+[2015-11-04 16:17:24.565] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:17:24.569] [WARN] normal - GET /login
+[2015-11-04 16:17:29.100] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:17:29.101] [WARN] normal - GET /login
+[2015-11-04 16:17:29.103] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:17:29.103] [INFO] dev-error - controllers/index.js
+[2015-11-04 16:17:29.104] [WARN] normal - GET /
+[2015-11-04 16:22:48.863] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:22:48.864] [ERROR] normal - GET /we
+[2015-11-04 16:25:45.724] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:25:48.412] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:25:48.421] [WARN] normal - GET /
+[2015-11-04 16:25:48.424] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:25:48.424] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:25:48.433] [INFO] normal - GET /login
+[2015-11-04 16:25:51.204] [ERROR] dev-error - [errorHandler]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:25:51.205] [ERROR] normal - GET /login2
+[2015-11-04 16:29:14.136] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:29:15.877] [WARN] normal - GET /login2
+[2015-11-04 16:29:15.882] [WARN] normal - GET /404
+[2015-11-04 16:29:15.885] [WARN] normal - GET /404
+[2015-11-04 16:29:15.888] [WARN] normal - GET /404
+[2015-11-04 16:29:15.890] [WARN] normal - GET /404
+[2015-11-04 16:29:15.892] [WARN] normal - GET /404
+[2015-11-04 16:29:15.895] [WARN] normal - GET /404
+[2015-11-04 16:29:15.898] [WARN] normal - GET /404
+[2015-11-04 16:29:15.899] [WARN] normal - GET /404
+[2015-11-04 16:29:15.902] [WARN] normal - GET /404
+[2015-11-04 16:29:15.904] [WARN] normal - GET /404
+[2015-11-04 16:29:15.906] [WARN] normal - GET /404
+[2015-11-04 16:29:15.908] [WARN] normal - GET /404
+[2015-11-04 16:29:15.910] [WARN] normal - GET /404
+[2015-11-04 16:29:15.912] [WARN] normal - GET /404
+[2015-11-04 16:29:15.914] [WARN] normal - GET /404
+[2015-11-04 16:29:15.915] [WARN] normal - GET /404
+[2015-11-04 16:29:15.917] [WARN] normal - GET /404
+[2015-11-04 16:29:15.921] [WARN] normal - GET /404
+[2015-11-04 16:29:15.923] [WARN] normal - GET /404
+[2015-11-04 16:29:15.924] [WARN] normal - GET /404
+[2015-11-04 16:29:16.027] [WARN] normal - GET /404
+[2015-11-04 16:29:16.031] [WARN] normal - GET /404
+[2015-11-04 16:29:16.035] [WARN] normal - GET /404
+[2015-11-04 16:29:16.037] [WARN] normal - GET /404
+[2015-11-04 16:29:16.039] [WARN] normal - GET /404
+[2015-11-04 16:29:16.042] [WARN] normal - GET /404
+[2015-11-04 16:29:16.043] [WARN] normal - GET /404
+[2015-11-04 16:29:16.045] [WARN] normal - GET /404
+[2015-11-04 16:29:16.047] [WARN] normal - GET /404
+[2015-11-04 16:29:16.050] [WARN] normal - GET /404
+[2015-11-04 16:29:16.053] [WARN] normal - GET /404
+[2015-11-04 16:29:16.055] [WARN] normal - GET /404
+[2015-11-04 16:29:16.059] [WARN] normal - GET /404
+[2015-11-04 16:29:16.061] [WARN] normal - GET /404
+[2015-11-04 16:29:16.063] [WARN] normal - GET /404
+[2015-11-04 16:29:16.065] [WARN] normal - GET /404
+[2015-11-04 16:29:16.067] [WARN] normal - GET /404
+[2015-11-04 16:29:16.068] [WARN] normal - GET /404
+[2015-11-04 16:29:16.072] [WARN] normal - GET /404
+[2015-11-04 16:29:16.074] [WARN] normal - GET /404
+[2015-11-04 16:29:16.075] [WARN] normal - GET /404
+[2015-11-04 16:29:21.078] [WARN] normal - GET /404
+[2015-11-04 16:29:21.082] [WARN] normal - GET /404
+[2015-11-04 16:29:21.084] [WARN] normal - GET /404
+[2015-11-04 16:29:21.087] [WARN] normal - GET /404
+[2015-11-04 16:29:21.089] [WARN] normal - GET /404
+[2015-11-04 16:29:21.092] [WARN] normal - GET /404
+[2015-11-04 16:29:21.094] [WARN] normal - GET /404
+[2015-11-04 16:29:21.097] [WARN] normal - GET /404
+[2015-11-04 16:29:21.099] [WARN] normal - GET /404
+[2015-11-04 16:29:21.101] [WARN] normal - GET /404
+[2015-11-04 16:29:21.102] [WARN] normal - GET /404
+[2015-11-04 16:29:21.104] [WARN] normal - GET /404
+[2015-11-04 16:29:21.106] [WARN] normal - GET /404
+[2015-11-04 16:29:21.108] [WARN] normal - GET /404
+[2015-11-04 16:29:21.110] [WARN] normal - GET /404
+[2015-11-04 16:29:21.111] [WARN] normal - GET /404
+[2015-11-04 16:29:21.113] [WARN] normal - GET /404
+[2015-11-04 16:29:21.115] [WARN] normal - GET /404
+[2015-11-04 16:29:21.117] [WARN] normal - GET /404
+[2015-11-04 16:29:21.118] [WARN] normal - GET /404
+[2015-11-04 16:29:21.121] [WARN] normal - GET /404
+[2015-11-04 16:29:27.528] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:29:27.529] [WARN] normal - GET /
+[2015-11-04 16:29:27.531] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:29:27.531] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:29:27.541] [WARN] normal - GET /login
+[2015-11-04 16:32:13.869] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:32:15.413] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:32:15.413] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:32:15.429] [WARN] normal - GET /login
+[2015-11-04 16:32:17.704] [WARN] normal - GET /login3
+[2015-11-04 16:32:17.705] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:32:17.709] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:51:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:32:17.709] [ERROR] normal - GET /404
+[2015-11-04 16:32:45.161] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:32:46.385] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:32:50.276] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:32:50.284] [WARN] normal - GET /
+[2015-11-04 16:32:50.286] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:32:50.286] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:32:50.294] [WARN] normal - GET /login
+[2015-11-04 16:34:10.350] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:34:12.183] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:34:12.184] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:34:12.196] [WARN] normal - GET /login
+[2015-11-04 16:34:17.468] [WARN] normal - GET /login4
+[2015-11-04 16:34:17.469] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:34:17.473] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:34:17.473] [ERROR] normal - GET /404
+[2015-11-04 16:35:06.193] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:35:07.704] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:07.716] [INFO] normal - GET /404
+[2015-11-04 16:35:11.961] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:11.961] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:35:11.964] [WARN] normal - GET /login
+[2015-11-04 16:35:14.843] [WARN] normal - GET /logine
+[2015-11-04 16:35:14.845] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:14.848] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:14.850] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:14.851] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:14.852] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:14.853] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:14.854] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:14.855] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:14.857] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:14.860] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:14.862] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:14.863] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:14.865] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:14.866] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:14.927] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:14.929] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:19.937] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:19.943] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:20.103] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:20.104] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:20.105] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:20.106] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:20.107] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:20.109] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:20.110] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:20.111] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:20.112] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:20.116] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:20.118] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:20.119] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:63:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:42.172] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:35:43.241] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:43.254] [WARN] normal - GET /404
+[2015-11-04 16:35:44.501] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:44.509] [WARN] normal - GET /404
+[2015-11-04 16:35:44.766] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:44.767] [WARN] normal - GET /404
+[2015-11-04 16:35:45.035] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:45.039] [WARN] normal - GET /404
+[2015-11-04 16:35:47.294] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:35:47.300] [WARN] normal - GET /
+[2015-11-04 16:35:47.301] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:47.301] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:35:47.303] [WARN] normal - GET /login
+[2015-11-04 16:35:50.162] [WARN] normal - GET /logine
+[2015-11-04 16:35:50.165] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:50.168] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:50.169] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:50.171] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:50.172] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:50.172] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:50.173] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:50.174] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:50.175] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:50.176] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:50.177] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:50.178] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:50.179] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:50.181] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:50.201] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:50.205] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:35:55.213] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:35:55.217] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:36:25.228] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:36:25.237] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:37:25.246] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:37:25.251] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:62:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:33.902] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:39:36.120] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:36.153] [ERROR] normal - GET /404
+[2015-11-04 16:39:36.154] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:57:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:38.726] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:39:38.731] [WARN] normal - GET /
+[2015-11-04 16:39:38.748] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:38.748] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:39:38.750] [WARN] normal - GET /login
+[2015-11-04 16:39:41.779] [WARN] normal - GET /login3
+[2015-11-04 16:39:41.781] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:41.783] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:41.784] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:41.785] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:41.786] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:41.788] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:41.789] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:41.793] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:41.793] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:41.794] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:41.796] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:41.797] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:41.798] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:41.799] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:41.820] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:41.821] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:39:46.827] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:39:46.831] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.145] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.151] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.154] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.157] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.161] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.166] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.167] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.169] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.170] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.172] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.775] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.778] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.781] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.786] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.788] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.793] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:28.796] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:28.799] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.017] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.020] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.022] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.024] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.026] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.028] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.032] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.035] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.237] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.241] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.245] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.247] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.493] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.495] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.497] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.499] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.798] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.799] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:29.801] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:29.803] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:30.846] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:30.847] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:41:30.850] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:41:30.852] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:42:00.877] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:42:00.882] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:64:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:42:44.150] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:42:45.278] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:42:45.291] [WARN] normal - GET /404
+[2015-11-04 16:42:47.818] [WARN] normal - GET /4043
+[2015-11-04 16:42:47.819] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:42:47.821] [WARN] normal - GET /404
+[2015-11-04 16:42:50.635] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:42:50.636] [WARN] normal - GET /
+[2015-11-04 16:42:50.637] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:42:50.638] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:42:50.639] [WARN] normal - GET /login
+[2015-11-04 16:42:53.087] [WARN] normal - GET /login3
+[2015-11-04 16:42:53.090] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:42:53.091] [WARN] normal - GET /404
+[2015-11-04 16:43:37.433] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:43:38.513] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:43:38.527] [WARN] normal - GET /404
+[2015-11-04 16:43:40.571] [ERROR] dev-error - [errorHandler]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:41:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:43:40.574] [ERROR] normal - GET /40423
+[2015-11-04 16:44:46.699] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:44:47.480] [WARN] normal - GET /40423
+[2015-11-04 16:44:47.489] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:44:47.503] [WARN] normal - GET /404
+[2015-11-04 16:44:53.733] [WARN] normal - GET /40423
+[2015-11-04 16:44:53.735] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:44:53.737] [WARN] normal - GET /404
+[2015-11-04 16:46:13.066] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:46:14.239] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:46:14.255] [ERROR] dev-error - [errorHandler]:{ title: '500错误',
+  message: 'e:\\NewWork\\git\\thinking\\views\\errors\\404.ejs:4\n    2| <html>\r\n    3|   <head>\r\n >> 4|     <title><%= title %></title>\r\n    5|     <link rel=\'stylesheet\' href=\'/stylesheets/error_all.css?cnd=1231231\' />\r\n    6|   </head>\r\n    7|   <body>\r\n\ntitle is not defined',
+  error: {} }
+[2015-11-04 16:46:14.257] [ERROR] normal - GET /404
+[2015-11-04 16:46:14.260] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:46:14.287] [INFO] normal - GET /500
+[2015-11-04 16:47:08.683] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:47:09.910] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:47:09.922] [WARN] normal - GET /500
+[2015-11-04 16:47:11.977] [WARN] normal - GET /5003
+[2015-11-04 16:47:11.979] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:47:11.982] [ERROR] dev-error - [errorHandler]:Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:335:11)
+    at ServerResponse.header (e:\NewWork\git\thinking\node_modules\express\lib\response.js:718:10)
+    at ServerResponse.location (e:\NewWork\git\thinking\node_modules\express\lib\response.js:835:8)
+    at ServerResponse.redirect (e:\NewWork\git\thinking\node_modules\express\lib\response.js:874:8)
+    at e:\NewWork\git\thinking\routes.js:57:24
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+[2015-11-04 16:47:11.982] [ERROR] normal - GET /404
+[2015-11-04 16:48:52.093] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:48:57.113] [WARN] normal - GET /404
+[2015-11-04 16:48:57.120] [WARN] normal - GET /404
+[2015-11-04 16:48:57.122] [WARN] normal - GET /404
+[2015-11-04 16:48:57.124] [WARN] normal - GET /404
+[2015-11-04 16:48:57.127] [WARN] normal - GET /404
+[2015-11-04 16:48:57.130] [WARN] normal - GET /404
+[2015-11-04 16:48:57.133] [WARN] normal - GET /404
+[2015-11-04 16:48:57.135] [WARN] normal - GET /404
+[2015-11-04 16:48:57.137] [WARN] normal - GET /404
+[2015-11-04 16:48:57.140] [WARN] normal - GET /404
+[2015-11-04 16:48:57.143] [WARN] normal - GET /404
+[2015-11-04 16:48:57.145] [WARN] normal - GET /404
+[2015-11-04 16:48:57.147] [WARN] normal - GET /404
+[2015-11-04 16:48:57.150] [WARN] normal - GET /404
+[2015-11-04 16:48:57.153] [WARN] normal - GET /404
+[2015-11-04 16:48:57.155] [WARN] normal - GET /404
+[2015-11-04 16:48:57.157] [WARN] normal - GET /404
+[2015-11-04 16:48:57.159] [WARN] normal - GET /404
+[2015-11-04 16:48:57.163] [WARN] normal - GET /404
+[2015-11-04 16:48:57.165] [WARN] normal - GET /404
+[2015-11-04 16:48:57.166] [WARN] normal - GET /404
+[2015-11-04 16:48:57.234] [WARN] normal - GET /404
+[2015-11-04 16:48:57.238] [WARN] normal - GET /404
+[2015-11-04 16:48:57.240] [WARN] normal - GET /404
+[2015-11-04 16:48:57.242] [WARN] normal - GET /404
+[2015-11-04 16:48:57.244] [WARN] normal - GET /404
+[2015-11-04 16:48:57.247] [WARN] normal - GET /404
+[2015-11-04 16:48:57.249] [WARN] normal - GET /404
+[2015-11-04 16:48:57.251] [WARN] normal - GET /404
+[2015-11-04 16:48:57.253] [WARN] normal - GET /404
+[2015-11-04 16:48:57.256] [WARN] normal - GET /404
+[2015-11-04 16:48:57.258] [WARN] normal - GET /404
+[2015-11-04 16:48:57.261] [WARN] normal - GET /404
+[2015-11-04 16:48:57.263] [WARN] normal - GET /404
+[2015-11-04 16:48:57.266] [WARN] normal - GET /404
+[2015-11-04 16:48:57.268] [WARN] normal - GET /404
+[2015-11-04 16:48:57.269] [WARN] normal - GET /404
+[2015-11-04 16:48:57.271] [WARN] normal - GET /404
+[2015-11-04 16:48:57.272] [WARN] normal - GET /404
+[2015-11-04 16:48:57.274] [WARN] normal - GET /404
+[2015-11-04 16:48:57.276] [WARN] normal - GET /404
+[2015-11-04 16:48:57.278] [WARN] normal - GET /404
+[2015-11-04 16:49:00.097] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:49:00.099] [WARN] normal - GET /
+[2015-11-04 16:49:00.101] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:49:00.101] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:49:00.109] [WARN] normal - GET /login
+[2015-11-04 16:49:05.204] [WARN] normal - GET /login3
+[2015-11-04 16:49:05.206] [WARN] normal - GET /404
+[2015-11-04 16:49:05.209] [WARN] normal - GET /404
+[2015-11-04 16:49:05.211] [WARN] normal - GET /404
+[2015-11-04 16:49:05.213] [WARN] normal - GET /404
+[2015-11-04 16:49:05.215] [WARN] normal - GET /404
+[2015-11-04 16:49:05.216] [WARN] normal - GET /404
+[2015-11-04 16:49:05.218] [WARN] normal - GET /404
+[2015-11-04 16:49:05.220] [WARN] normal - GET /404
+[2015-11-04 16:49:05.222] [WARN] normal - GET /404
+[2015-11-04 16:49:05.223] [WARN] normal - GET /404
+[2015-11-04 16:49:05.225] [WARN] normal - GET /404
+[2015-11-04 16:49:05.227] [WARN] normal - GET /404
+[2015-11-04 16:49:05.229] [WARN] normal - GET /404
+[2015-11-04 16:49:05.230] [WARN] normal - GET /404
+[2015-11-04 16:49:05.231] [WARN] normal - GET /404
+[2015-11-04 16:49:05.234] [WARN] normal - GET /404
+[2015-11-04 16:49:05.236] [WARN] normal - GET /404
+[2015-11-04 16:49:05.240] [WARN] normal - GET /404
+[2015-11-04 16:49:05.242] [WARN] normal - GET /404
+[2015-11-04 16:49:05.245] [WARN] normal - GET /404
+[2015-11-04 16:49:05.701] [WARN] normal - GET /login34
+[2015-11-04 16:49:05.707] [WARN] normal - GET /404
+[2015-11-04 16:49:05.709] [WARN] normal - GET /404
+[2015-11-04 16:49:05.712] [WARN] normal - GET /404
+[2015-11-04 16:49:05.715] [WARN] normal - GET /404
+[2015-11-04 16:49:05.718] [WARN] normal - GET /404
+[2015-11-04 16:49:05.720] [WARN] normal - GET /404
+[2015-11-04 16:49:05.721] [WARN] normal - GET /404
+[2015-11-04 16:49:05.723] [WARN] normal - GET /404
+[2015-11-04 16:49:05.724] [WARN] normal - GET /404
+[2015-11-04 16:49:05.726] [WARN] normal - GET /404
+[2015-11-04 16:49:05.727] [WARN] normal - GET /404
+[2015-11-04 16:49:05.730] [WARN] normal - GET /404
+[2015-11-04 16:49:05.732] [WARN] normal - GET /404
+[2015-11-04 16:49:05.734] [WARN] normal - GET /404
+[2015-11-04 16:49:05.736] [WARN] normal - GET /404
+[2015-11-04 16:49:05.737] [WARN] normal - GET /404
+[2015-11-04 16:49:05.739] [WARN] normal - GET /404
+[2015-11-04 16:49:05.740] [WARN] normal - GET /404
+[2015-11-04 16:49:05.742] [WARN] normal - GET /404
+[2015-11-04 16:49:05.744] [WARN] normal - GET /404
+[2015-11-04 16:49:05.815] [WARN] normal - GET /404
+[2015-11-04 16:49:05.820] [WARN] normal - GET /404
+[2015-11-04 16:49:05.822] [WARN] normal - GET /404
+[2015-11-04 16:49:05.824] [WARN] normal - GET /404
+[2015-11-04 16:49:05.826] [WARN] normal - GET /404
+[2015-11-04 16:49:05.828] [WARN] normal - GET /404
+[2015-11-04 16:49:05.834] [WARN] normal - GET /404
+[2015-11-04 16:49:05.837] [WARN] normal - GET /404
+[2015-11-04 16:49:05.838] [WARN] normal - GET /404
+[2015-11-04 16:49:05.840] [WARN] normal - GET /404
+[2015-11-04 16:49:05.842] [WARN] normal - GET /404
+[2015-11-04 16:49:05.843] [WARN] normal - GET /404
+[2015-11-04 16:49:05.846] [WARN] normal - GET /404
+[2015-11-04 16:49:05.851] [WARN] normal - GET /404
+[2015-11-04 16:49:05.853] [WARN] normal - GET /404
+[2015-11-04 16:49:05.855] [WARN] normal - GET /404
+[2015-11-04 16:49:05.857] [WARN] normal - GET /404
+[2015-11-04 16:49:05.859] [WARN] normal - GET /404
+[2015-11-04 16:49:05.860] [WARN] normal - GET /404
+[2015-11-04 16:49:05.862] [WARN] normal - GET /404
+[2015-11-04 16:49:05.864] [WARN] normal - GET /404
+[2015-11-04 16:49:10.868] [WARN] normal - GET /404
+[2015-11-04 16:49:10.870] [WARN] normal - GET /404
+[2015-11-04 16:49:10.872] [WARN] normal - GET /404
+[2015-11-04 16:49:10.875] [WARN] normal - GET /404
+[2015-11-04 16:49:10.878] [WARN] normal - GET /404
+[2015-11-04 16:49:10.880] [WARN] normal - GET /404
+[2015-11-04 16:49:10.882] [WARN] normal - GET /404
+[2015-11-04 16:49:10.886] [WARN] normal - GET /404
+[2015-11-04 16:49:10.889] [WARN] normal - GET /404
+[2015-11-04 16:49:10.891] [WARN] normal - GET /404
+[2015-11-04 16:49:10.894] [WARN] normal - GET /404
+[2015-11-04 16:49:10.895] [WARN] normal - GET /404
+[2015-11-04 16:49:10.898] [WARN] normal - GET /404
+[2015-11-04 16:49:10.900] [WARN] normal - GET /404
+[2015-11-04 16:49:10.903] [WARN] normal - GET /404
+[2015-11-04 16:49:10.910] [WARN] normal - GET /404
+[2015-11-04 16:49:10.912] [WARN] normal - GET /404
+[2015-11-04 16:49:10.914] [WARN] normal - GET /404
+[2015-11-04 16:49:10.916] [WARN] normal - GET /404
+[2015-11-04 16:49:10.918] [WARN] normal - GET /404
+[2015-11-04 16:49:10.921] [WARN] normal - GET /404
+[2015-11-04 16:50:55.818] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:50:57.662] [ERROR] dev-error - [errorHandler]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:18:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 16:50:57.673] [ERROR] normal - GET /404
+[2015-11-04 16:51:30.615] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:51:31.366] [WARN] normal - GET /404
+[2015-11-04 16:51:31.374] [WARN] normal - GET /404
+[2015-11-04 16:51:31.376] [WARN] normal - GET /404
+[2015-11-04 16:51:31.378] [WARN] normal - GET /404
+[2015-11-04 16:51:31.380] [WARN] normal - GET /404
+[2015-11-04 16:51:31.383] [WARN] normal - GET /404
+[2015-11-04 16:51:31.386] [WARN] normal - GET /404
+[2015-11-04 16:51:31.388] [WARN] normal - GET /404
+[2015-11-04 16:51:31.390] [WARN] normal - GET /404
+[2015-11-04 16:51:31.393] [WARN] normal - GET /404
+[2015-11-04 16:51:31.395] [WARN] normal - GET /404
+[2015-11-04 16:51:31.397] [WARN] normal - GET /404
+[2015-11-04 16:51:31.399] [WARN] normal - GET /404
+[2015-11-04 16:51:31.402] [WARN] normal - GET /404
+[2015-11-04 16:51:31.404] [WARN] normal - GET /404
+[2015-11-04 16:51:31.406] [WARN] normal - GET /404
+[2015-11-04 16:51:31.408] [WARN] normal - GET /404
+[2015-11-04 16:51:31.410] [WARN] normal - GET /404
+[2015-11-04 16:51:31.415] [WARN] normal - GET /404
+[2015-11-04 16:51:31.417] [WARN] normal - GET /404
+[2015-11-04 16:51:31.419] [WARN] normal - GET /404
+[2015-11-04 16:51:31.453] [WARN] normal - GET /404
+[2015-11-04 16:51:31.456] [WARN] normal - GET /404
+[2015-11-04 16:51:31.458] [WARN] normal - GET /404
+[2015-11-04 16:51:31.461] [WARN] normal - GET /404
+[2015-11-04 16:51:31.463] [WARN] normal - GET /404
+[2015-11-04 16:51:31.465] [WARN] normal - GET /404
+[2015-11-04 16:51:31.468] [WARN] normal - GET /404
+[2015-11-04 16:51:31.470] [WARN] normal - GET /404
+[2015-11-04 16:51:31.473] [WARN] normal - GET /404
+[2015-11-04 16:51:31.476] [WARN] normal - GET /404
+[2015-11-04 16:51:31.478] [WARN] normal - GET /404
+[2015-11-04 16:51:31.481] [WARN] normal - GET /404
+[2015-11-04 16:51:31.486] [WARN] normal - GET /404
+[2015-11-04 16:51:31.489] [WARN] normal - GET /404
+[2015-11-04 16:51:31.491] [WARN] normal - GET /404
+[2015-11-04 16:51:31.493] [WARN] normal - GET /404
+[2015-11-04 16:51:31.495] [WARN] normal - GET /404
+[2015-11-04 16:51:31.496] [WARN] normal - GET /404
+[2015-11-04 16:51:31.500] [WARN] normal - GET /404
+[2015-11-04 16:51:31.502] [WARN] normal - GET /404
+[2015-11-04 16:51:31.504] [WARN] normal - GET /404
+[2015-11-04 16:51:36.511] [WARN] normal - GET /404
+[2015-11-04 16:51:36.522] [WARN] normal - GET /404
+[2015-11-04 16:51:36.530] [WARN] normal - GET /404
+[2015-11-04 16:51:36.536] [WARN] normal - GET /404
+[2015-11-04 16:51:36.541] [WARN] normal - GET /404
+[2015-11-04 16:51:36.545] [WARN] normal - GET /404
+[2015-11-04 16:51:36.548] [WARN] normal - GET /404
+[2015-11-04 16:51:36.552] [WARN] normal - GET /404
+[2015-11-04 16:51:36.555] [WARN] normal - GET /404
+[2015-11-04 16:51:36.558] [WARN] normal - GET /404
+[2015-11-04 16:51:36.562] [WARN] normal - GET /404
+[2015-11-04 16:51:36.565] [WARN] normal - GET /404
+[2015-11-04 16:51:36.567] [WARN] normal - GET /404
+[2015-11-04 16:51:36.570] [WARN] normal - GET /404
+[2015-11-04 16:51:36.572] [WARN] normal - GET /404
+[2015-11-04 16:51:36.574] [WARN] normal - GET /404
+[2015-11-04 16:51:36.577] [WARN] normal - GET /404
+[2015-11-04 16:51:36.579] [WARN] normal - GET /404
+[2015-11-04 16:51:36.582] [WARN] normal - GET /404
+[2015-11-04 16:51:36.584] [WARN] normal - GET /404
+[2015-11-04 16:51:36.587] [WARN] normal - GET /404
+[2015-11-04 16:51:47.315] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:51:48.134] [WARN] normal - GET /404
+[2015-11-04 16:51:48.139] [WARN] normal - GET /404
+[2015-11-04 16:51:48.140] [WARN] normal - GET /404
+[2015-11-04 16:51:48.142] [WARN] normal - GET /404
+[2015-11-04 16:51:48.144] [WARN] normal - GET /404
+[2015-11-04 16:51:48.149] [WARN] normal - GET /404
+[2015-11-04 16:51:48.151] [WARN] normal - GET /404
+[2015-11-04 16:51:48.154] [WARN] normal - GET /404
+[2015-11-04 16:51:48.156] [WARN] normal - GET /404
+[2015-11-04 16:51:48.158] [WARN] normal - GET /404
+[2015-11-04 16:51:48.161] [WARN] normal - GET /404
+[2015-11-04 16:51:48.163] [WARN] normal - GET /404
+[2015-11-04 16:51:48.164] [WARN] normal - GET /404
+[2015-11-04 16:51:48.167] [WARN] normal - GET /404
+[2015-11-04 16:51:48.169] [WARN] normal - GET /404
+[2015-11-04 16:51:48.172] [WARN] normal - GET /404
+[2015-11-04 16:51:48.177] [WARN] normal - GET /404
+[2015-11-04 16:51:48.181] [WARN] normal - GET /404
+[2015-11-04 16:51:48.185] [WARN] normal - GET /404
+[2015-11-04 16:51:48.188] [WARN] normal - GET /404
+[2015-11-04 16:51:48.190] [WARN] normal - GET /404
+[2015-11-04 16:51:50.683] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:51:50.686] [WARN] normal - GET /
+[2015-11-04 16:51:50.691] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:51:50.692] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:51:50.699] [WARN] normal - GET /login
+[2015-11-04 16:51:53.035] [WARN] normal - GET /login3
+[2015-11-04 16:51:53.037] [WARN] normal - GET /404
+[2015-11-04 16:51:53.039] [WARN] normal - GET /404
+[2015-11-04 16:51:53.042] [WARN] normal - GET /404
+[2015-11-04 16:51:53.045] [WARN] normal - GET /404
+[2015-11-04 16:51:53.046] [WARN] normal - GET /404
+[2015-11-04 16:51:53.049] [WARN] normal - GET /404
+[2015-11-04 16:51:53.052] [WARN] normal - GET /404
+[2015-11-04 16:51:53.054] [WARN] normal - GET /404
+[2015-11-04 16:51:53.058] [WARN] normal - GET /404
+[2015-11-04 16:51:53.061] [WARN] normal - GET /404
+[2015-11-04 16:51:53.064] [WARN] normal - GET /404
+[2015-11-04 16:51:53.067] [WARN] normal - GET /404
+[2015-11-04 16:51:53.069] [WARN] normal - GET /404
+[2015-11-04 16:51:53.071] [WARN] normal - GET /404
+[2015-11-04 16:51:53.074] [WARN] normal - GET /404
+[2015-11-04 16:51:53.076] [WARN] normal - GET /404
+[2015-11-04 16:51:53.079] [WARN] normal - GET /404
+[2015-11-04 16:51:53.082] [WARN] normal - GET /404
+[2015-11-04 16:51:53.084] [WARN] normal - GET /404
+[2015-11-04 16:51:53.086] [WARN] normal - GET /404
+[2015-11-04 16:51:53.153] [WARN] normal - GET /404
+[2015-11-04 16:51:53.156] [WARN] normal - GET /404
+[2015-11-04 16:51:53.159] [WARN] normal - GET /404
+[2015-11-04 16:51:53.162] [WARN] normal - GET /404
+[2015-11-04 16:51:53.164] [WARN] normal - GET /404
+[2015-11-04 16:51:53.166] [WARN] normal - GET /404
+[2015-11-04 16:51:53.169] [WARN] normal - GET /404
+[2015-11-04 16:51:53.170] [WARN] normal - GET /404
+[2015-11-04 16:51:53.172] [WARN] normal - GET /404
+[2015-11-04 16:51:53.176] [WARN] normal - GET /404
+[2015-11-04 16:51:53.177] [WARN] normal - GET /404
+[2015-11-04 16:51:53.179] [WARN] normal - GET /404
+[2015-11-04 16:51:53.180] [WARN] normal - GET /404
+[2015-11-04 16:51:53.182] [WARN] normal - GET /404
+[2015-11-04 16:51:53.184] [WARN] normal - GET /404
+[2015-11-04 16:51:53.185] [WARN] normal - GET /404
+[2015-11-04 16:51:53.187] [WARN] normal - GET /404
+[2015-11-04 16:51:53.191] [WARN] normal - GET /404
+[2015-11-04 16:51:53.193] [WARN] normal - GET /404
+[2015-11-04 16:51:53.195] [WARN] normal - GET /404
+[2015-11-04 16:51:53.198] [WARN] normal - GET /404
+[2015-11-04 16:51:56.924] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:51:58.121] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:51:58.219] [WARN] normal - GET /404
+[2015-11-04 16:51:58.224] [WARN] normal - GET /404
+[2015-11-04 16:51:58.226] [WARN] normal - GET /404
+[2015-11-04 16:51:58.228] [WARN] normal - GET /404
+[2015-11-04 16:51:58.230] [WARN] normal - GET /404
+[2015-11-04 16:51:58.233] [WARN] normal - GET /404
+[2015-11-04 16:51:58.235] [WARN] normal - GET /404
+[2015-11-04 16:51:58.237] [WARN] normal - GET /404
+[2015-11-04 16:51:58.240] [WARN] normal - GET /404
+[2015-11-04 16:51:58.241] [WARN] normal - GET /404
+[2015-11-04 16:51:58.244] [WARN] normal - GET /404
+[2015-11-04 16:51:58.246] [WARN] normal - GET /404
+[2015-11-04 16:51:58.247] [WARN] normal - GET /404
+[2015-11-04 16:51:58.249] [WARN] normal - GET /404
+[2015-11-04 16:51:58.252] [WARN] normal - GET /404
+[2015-11-04 16:51:58.253] [WARN] normal - GET /404
+[2015-11-04 16:51:58.255] [WARN] normal - GET /404
+[2015-11-04 16:51:58.257] [WARN] normal - GET /404
+[2015-11-04 16:51:58.261] [WARN] normal - GET /404
+[2015-11-04 16:51:58.262] [WARN] normal - GET /404
+[2015-11-04 16:51:58.264] [WARN] normal - GET /404
+[2015-11-04 16:52:28.278] [WARN] normal - GET /404
+[2015-11-04 16:52:28.287] [WARN] normal - GET /404
+[2015-11-04 16:52:28.296] [WARN] normal - GET /404
+[2015-11-04 16:52:28.306] [WARN] normal - GET /404
+[2015-11-04 16:52:28.312] [WARN] normal - GET /404
+[2015-11-04 16:52:28.318] [WARN] normal - GET /404
+[2015-11-04 16:52:28.321] [WARN] normal - GET /404
+[2015-11-04 16:52:28.325] [WARN] normal - GET /404
+[2015-11-04 16:52:28.329] [WARN] normal - GET /404
+[2015-11-04 16:52:28.335] [WARN] normal - GET /404
+[2015-11-04 16:52:28.340] [WARN] normal - GET /404
+[2015-11-04 16:52:28.345] [WARN] normal - GET /404
+[2015-11-04 16:52:28.348] [WARN] normal - GET /404
+[2015-11-04 16:52:28.350] [WARN] normal - GET /404
+[2015-11-04 16:52:28.352] [WARN] normal - GET /404
+[2015-11-04 16:52:28.354] [WARN] normal - GET /404
+[2015-11-04 16:52:28.355] [WARN] normal - GET /404
+[2015-11-04 16:52:28.357] [WARN] normal - GET /404
+[2015-11-04 16:52:28.360] [WARN] normal - GET /404
+[2015-11-04 16:52:28.363] [WARN] normal - GET /404
+[2015-11-04 16:52:28.365] [WARN] normal - GET /404
+[2015-11-04 16:53:09.250] [INFO] console - Express server listening on port 3000
+[2015-11-04 16:53:10.566] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:53:10.579] [INFO] normal - GET /404
+[2015-11-04 16:53:13.424] [WARN] normal - GET /404r
+[2015-11-04 16:53:13.425] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:53:13.426] [WARN] normal - GET /404
+[2015-11-04 16:53:15.675] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 16:53:15.676] [WARN] normal - GET /
+[2015-11-04 16:53:15.678] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:53:15.678] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 16:53:15.679] [WARN] normal - GET /login
+[2015-11-04 16:53:17.571] [WARN] normal - GET /loginr
+[2015-11-04 16:53:17.574] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 16:53:17.575] [WARN] normal - GET /404
+[2015-11-04 17:03:10.734] [INFO] console - Express server listening on port 3000
+[2015-11-04 17:03:13.379] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:03:13.399] [WARN] normal - GET /404
+[2015-11-04 17:03:14.969] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 17:03:14.974] [WARN] normal - GET /
+[2015-11-04 17:03:14.975] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:03:14.975] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 17:03:14.977] [WARN] normal - GET /login
+[2015-11-04 17:03:17.201] [WARN] normal - GET /login23
+[2015-11-04 17:03:17.203] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:03:17.204] [WARN] normal - GET /404
+[2015-11-04 17:14:19.093] [INFO] console - Express server listening on port 3000
+[2015-11-04 17:14:23.736] [INFO] dev-error - controllers/login/login.js  -- authentication
+[2015-11-04 17:14:23.747] [WARN] normal - GET /
+[2015-11-04 17:14:23.769] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:14:23.769] [INFO] dev-error - controllers/login/login.js -- showLogin
+[2015-11-04 17:14:23.778] [WARN] normal - GET /login
+[2015-11-04 17:14:25.835] [ERROR] dev-error - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:23:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 17:14:25.837] [WARN] normal - GET /loginer
+[2015-11-04 17:14:25.839] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:14:25.841] [WARN] normal - GET /404
+[2015-11-04 17:15:27.098] [INFO] console - Express server listening on port 3000
+[2015-11-04 17:15:29.145] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:15:29.164] [WARN] normal - GET /404
+[2015-11-04 17:15:30.907] [ERROR] dev-error - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:23:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 17:15:30.912] [WARN] normal - GET /4043
+[2015-11-04 17:15:30.913] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:15:30.915] [WARN] normal - GET /404
+[2015-11-04 17:16:18.107] [INFO] console - Express server listening on port 3000
+[2015-11-04 17:16:19.596] [INFO] dev-error - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:16:19.616] [WARN] normal - GET /404
+[2015-11-04 17:16:56.111] [INFO] console - Express server listening on port 3000
+[2015-11-04 17:16:57.426] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:16:57.439] [WARN] normal - GET /404
+[2015-11-04 17:17:38.786] [INFO] console - Express server listening on port 3000
+[2015-11-04 17:17:40.521] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:17:40.535] [WARN] normal - GET /404
+[2015-11-04 17:17:49.296] [INFO] console - Express server listening on port 3000
+[2015-11-04 17:17:51.511] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:17:51.522] [WARN] normal - GET /404
+[2015-11-04 17:18:11.433] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:18:11.439] [WARN] normal - GET /
+[2015-11-04 17:18:11.440] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:18:11.441] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-04 17:18:11.442] [WARN] normal - GET /login
+[2015-11-04 17:18:12.877] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:18:12.877] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-04 17:18:12.877] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 17:18:12.879] [INFO] dev-logger: - e10adc3949ba59abbe56e057f20f883e的MD5值:14e1b600b1fd579f47433b88e8d85291
+[2015-11-04 17:18:12.881] [INFO] normal - POST /login
+[2015-11-04 17:18:12.887] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:18:12.887] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:18:12.898] [INFO] normal - GET /
+[2015-11-04 17:18:16.172] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:18:16.172] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:18:16.173] [WARN] normal - GET /
+[2015-11-04 17:18:19.208] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:18:19.209] [WARN] normal - GET /login
+[2015-11-04 17:18:19.302] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:18:19.303] [WARN] normal - GET /login
+[2015-11-04 17:18:19.310] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:18:19.310] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:18:19.311] [WARN] normal - GET /
+[2015-11-04 17:20:04.820] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:20:04.826] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:20:04.836] [INFO] normal - GET /

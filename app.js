@@ -7,7 +7,6 @@ var app = express();
 var routes = require('./routes');
 var logger = require("mo/log/index");
 
-
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -16,6 +15,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(logger.connectLogger);
+
+if (app.get('env') === 'development') {
+    global.logger = logger.logger("dev-logger:");
+}
 
 app.use(session({
     secret:'secret',
@@ -28,5 +31,4 @@ app.use(session({
 
 routes(app);
 
-global.logger = logger.logger("dev-error");
 module.exports = app;

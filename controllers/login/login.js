@@ -28,13 +28,22 @@ exports.signIn = function (req, res, next) {
     global.logger.info(req.body);
 
     var userName = req.body.userName;
-    var userPwd  = req.body.userPwd;
+    var userPwd  = md5(req.body.userPwd);
 
-    var md5 = crypto.createHash('md5');
-    md5.update(userPwd);
-    var md5Pwd = md5.digest('hex');  //MD5值是5f4dcc3b5aa765d61d8327deb882cf99
+    global.logger.info(userPwd + "的MD5值:" + md5(userPwd));
 
-    
+    var user={
+        username:'1@163.com',
+        password:md5('123456')
+    };
+
+    if(userName==user.username&&userPwd==user.password)
+    {
+        req.session.user = user;
+        res.send(200,{result:1,data:{},msg:''});
+    }else{
+        res.send(200,{result:0,data:{},msg:'用户名或密码错误.'});
+    }
 };
 
 /**
@@ -69,3 +78,8 @@ exports.notAuthentication = function (req, res, next) {
     next();
 };
 
+function md5(content){
+    var md5 = crypto.createHash('md5');
+    md5.update(content);
+    return md5.digest('hex');
+}
