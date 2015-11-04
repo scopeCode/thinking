@@ -2348,3 +2348,54 @@ title is not defined
 [2015-11-04 17:20:04.820] [INFO] dev-logger: - controllers/login/login.js  -- authentication
 [2015-11-04 17:20:04.826] [INFO] dev-logger: - controllers/index.js
 [2015-11-04 17:20:04.836] [INFO] normal - GET /
+[2015-11-04 17:37:02.573] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:37:02.573] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-04 17:37:02.574] [INFO] normal - GET /login
+[2015-11-04 17:37:56.584] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:22:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at session (e:\NewWork\git\thinking\node_modules\express-session\index.js:402:7)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 17:37:56.586] [WARN] normal - GET /Content/img/page-bg-black.png
+[2015-11-04 17:37:56.592] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:37:56.593] [WARN] normal - GET /404
+[2015-11-04 17:38:06.127] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:38:06.127] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-04 17:38:06.131] [WARN] normal - GET /login
+[2015-11-04 17:38:06.898] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:38:06.899] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-04 17:38:06.902] [WARN] normal - GET /login
+[2015-11-04 17:38:07.202] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:38:07.203] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-04 17:38:07.205] [WARN] normal - GET /login
+[2015-11-04 17:56:48.540] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:56:48.540] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-04 17:56:48.545] [WARN] normal - GET /login
+[2015-11-04 17:56:49.572] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:56:49.573] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-04 17:56:49.573] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-04 17:56:49.573] [INFO] dev-logger: - e10adc3949ba59abbe56e057f20f883e的MD5值:14e1b600b1fd579f47433b88e8d85291
+[2015-11-04 17:56:49.574] [INFO] normal - POST /login
+[2015-11-04 17:56:49.578] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:56:49.578] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:56:49.579] [WARN] normal - GET /
+[2015-11-04 17:56:51.166] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:56:51.166] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:56:51.170] [WARN] normal - GET /
+[2015-11-04 17:56:51.630] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:56:51.630] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:56:51.631] [WARN] normal - GET /
+[2015-11-04 17:56:52.337] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-04 17:56:52.338] [WARN] normal - GET /login
+[2015-11-04 17:56:53.032] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:56:53.033] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:56:53.038] [WARN] normal - GET /
+[2015-11-04 17:56:56.042] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-04 17:56:56.042] [INFO] dev-logger: - controllers/index.js
+[2015-11-04 17:56:56.045] [WARN] normal - GET /
