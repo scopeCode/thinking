@@ -1,0 +1,726 @@
+[2015-11-04 09:12:26.389] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:13:11.627] [ERROR] normal - GET /wer23
+[2015-11-04 09:13:26.194] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:13:27.253] [ERROR] normal - GET /wer23
+[2015-11-04 09:13:29.555] [ERROR] normal - GET /
+[2015-11-04 09:14:20.534] [ERROR] normal - GET /
+[2015-11-04 09:14:21.372] [ERROR] normal - GET /
+[2015-11-04 09:14:22.816] [ERROR] normal - GET /
+[2015-11-04 09:16:00.973] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:16:02.587] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:16:10.546] [ERROR] normal - GET /
+[2015-11-04 09:17:52.482] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:17:54.329] [ERROR] normal - GET /
+[2015-11-04 09:18:23.559] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:18:24.833] [ERROR] normal - GET /
+[2015-11-04 09:24:00.028] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:24:05.719] [ERROR] normal - GET /
+[2015-11-04 09:24:23.303] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:24:25.133] [ERROR] dev-error - ReferenceError: err is not defined
+    at e:\NewWork\git\thinking\routes.js:12:18
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:24:25.147] [ERROR] normal - GET /
+[2015-11-04 09:24:44.789] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:24:45.845] [ERROR] dev-error - ReferenceError: err is not defined
+    at e:\NewWork\git\thinking\routes.js:12:18
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:24:45.854] [ERROR] normal - GET /
+[2015-11-04 09:25:35.771] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:25:36.856] [ERROR] dev-error - ReferenceError: dd is not defined
+    at e:\NewWork\git\thinking\routes.js:9:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:25:36.863] [ERROR] normal - GET /
+[2015-11-04 09:26:11.012] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:26:11.845] [ERROR] normal - GET /
+[2015-11-04 09:26:44.772] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:26:45.801] [ERROR] dev-error - ReferenceError: dd is not defined
+    at e:\NewWork\git\thinking\routes.js:9:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:26:45.809] [ERROR] normal - GET /
+[2015-11-04 09:26:46.893] [ERROR] dev-error - ReferenceError: dd is not defined
+    at e:\NewWork\git\thinking\routes.js:9:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:26:46.899] [ERROR] normal - GET /
+[2015-11-04 09:27:07.963] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:27:09.121] [ERROR] dev-error - ReferenceError: dd is not defined
+    at e:\NewWork\git\thinking\routes.js:9:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:27:45.552] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:27:46.368] [ERROR] dev-error - ReferenceError: dd is not defined
+    at e:\NewWork\git\thinking\routes.js:9:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:27:46.379] [ERROR] normal - GET /
+[2015-11-04 09:30:36.375] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:30:40.150] [ERROR] dev-error - ReferenceError: dd is not defined
+    at e:\NewWork\git\thinking\routes.js:9:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:30:40.163] [ERROR] normal - GET /
+[2015-11-04 09:31:08.479] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:31:09.719] [ERROR] normal - GET /
+[2015-11-04 09:31:09.720] [ERROR] dev-error - ReferenceError: dd is not defined
+    at e:\NewWork\git\thinking\routes.js:9:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:32:23.238] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:32:29.340] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:32:31.453] [INFO] normal - GET /
+[2015-11-04 09:32:34.808] [INFO] console - 22222222222222222222222222222222222222222222
+[2015-11-04 09:32:34.812] [ERROR] normal - GET /wqerwer
+[2015-11-04 09:32:34.813] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:24:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 09:33:25.012] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:33:28.331] [ERROR] normal - GET /
+[2015-11-04 09:33:28.332] [ERROR] dev-error - ReferenceError: ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:11:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:34:16.957] [ERROR] normal - GET /
+[2015-11-04 09:34:16.958] [ERROR] dev-error - ReferenceError: ddd is not defined
+    at e:\NewWork\git\thinking\routes.js:11:13
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 09:34:21.206] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:34:21.914] [INFO] normal - GET /
+[2015-11-04 09:36:44.513] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:36:46.150] [WARN] normal - GET /
+[2015-11-04 09:36:49.372] [ERROR] normal - GET /werwer
+[2015-11-04 09:36:49.372] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:19:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 09:38:14.063] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:38:16.025] [ERROR] normal - GET /werwer
+[2015-11-04 09:38:16.026] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:19:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 09:39:44.157] [INFO] console - Express server listening on port 3000
+[2015-11-04 09:39:45.330] [ERROR] normal - GET /werwer
+[2015-11-04 09:39:45.332] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:19:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 09:39:45.777] [ERROR] normal - GET /werwer
+[2015-11-04 09:39:45.778] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:19:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 09:39:45.994] [ERROR] normal - GET /werwer
+[2015-11-04 09:39:45.995] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:19:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 09:39:46.167] [ERROR] normal - GET /werwer
+[2015-11-04 09:39:46.168] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:19:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 09:39:51.208] [ERROR] normal - GET /index
+[2015-11-04 09:39:51.208] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:19:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 09:39:54.025] [WARN] normal - GET /
+[2015-11-04 09:40:00.119] [INFO] console - Express server listening on port 3000
+[2015-11-04 10:02:17.968] [WARN] normal - GET /
+[2015-11-04 11:14:59.921] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:15:06.038] [INFO] dev-error - controllers/index.js
+[2015-11-04 11:15:06.050] [INFO] normal - GET /
+[2015-11-04 11:15:13.470] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:15:13.500] [ERROR] normal - GET /login
+[2015-11-04 11:15:13.501] [ERROR] dev-error - ReferenceError: e:\NewWork\git\thinking\views\login.ejs:4
+    2| <html>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <link rel='stylesheet' href='/stylesheets/style.css' />
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at <anonymous> (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:11:23)
+    at returnedFn (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\NewWork\git\thinking\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\NewWork\git\thinking\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\NewWork\git\thinking\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\NewWork\git\thinking\node_modules\express\lib\response.js:961:7)
+    at exports.showLogin (e:\NewWork\git\thinking\controllers\login\login.js:16:9)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+[2015-11-04 11:16:52.201] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:16:55.692] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:16:55.710] [ERROR] normal - GET /login
+[2015-11-04 11:16:55.711] [ERROR] dev-error - ReferenceError: e:\NewWork\git\thinking\views\login.ejs:4
+    2| <html>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <link rel='stylesheet' href='/stylesheets/style.css' />
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at <anonymous> (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:11:23)
+    at returnedFn (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\NewWork\git\thinking\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\NewWork\git\thinking\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\NewWork\git\thinking\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\NewWork\git\thinking\node_modules\express\lib\response.js:961:7)
+    at exports.showLogin (e:\NewWork\git\thinking\controllers\login\login.js:16:9)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+[2015-11-04 11:17:16.847] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:17:16.855] [ERROR] normal - GET /login
+[2015-11-04 11:17:16.856] [ERROR] dev-error - ReferenceError: e:\NewWork\git\thinking\views\login.ejs:9
+    7|   <body>
+    8|     <h1></h1>
+ >> 9|     <p>Welcome to <%= title %></p>
+    10|   </body>
+    11| </html>
+
+title is not defined
+    at eval (eval at <anonymous> (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:11:23)
+    at returnedFn (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\NewWork\git\thinking\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\NewWork\git\thinking\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\NewWork\git\thinking\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\NewWork\git\thinking\node_modules\express\lib\response.js:961:7)
+    at exports.showLogin (e:\NewWork\git\thinking\controllers\login\login.js:16:9)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+[2015-11-04 11:17:20.878] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:17:22.218] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:17:22.233] [ERROR] normal - GET /login
+[2015-11-04 11:17:22.234] [ERROR] dev-error - ReferenceError: e:\NewWork\git\thinking\views\login.ejs:9
+    7|   <body>
+    8|     <h1></h1>
+ >> 9|     <p>Welcome to <%= title %></p>
+    10|   </body>
+    11| </html>
+
+title is not defined
+    at eval (eval at <anonymous> (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:11:23)
+    at returnedFn (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\NewWork\git\thinking\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\NewWork\git\thinking\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\NewWork\git\thinking\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\NewWork\git\thinking\node_modules\express\lib\response.js:961:7)
+    at exports.showLogin (e:\NewWork\git\thinking\controllers\login\login.js:16:9)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+[2015-11-04 11:17:35.460] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:17:36.476] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:17:36.501] [INFO] normal - GET /login
+[2015-11-04 11:18:25.210] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:18:25.217] [WARN] normal - GET /login
+[2015-11-04 11:18:30.335] [ERROR] normal - GET /regedit
+[2015-11-04 11:18:30.336] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:22:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 11:18:34.228] [ERROR] normal - GET /regist
+[2015-11-04 11:18:34.229] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:22:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 11:21:00.251] [ERROR] normal - GET /regist
+[2015-11-04 11:21:00.251] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:22:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-04 11:33:06.758] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:33:13.065] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:33:13.077] [WARN] normal - GET /login
+[2015-11-04 11:33:18.532] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:33:18.535] [WARN] normal - GET /login
+[2015-11-04 11:33:26.161] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:33:40.184] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:33:41.132] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:33:41.149] [ERROR] normal - GET /login
+[2015-11-04 11:33:41.149] [ERROR] dev-error - ReferenceError: e:\NewWork\git\thinking\views\login.ejs:4
+    2| <html>
+    3| <head>
+ >> 4|   <title><%= title %></title>
+    5|   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    6|   <title>用户登录 - 开发者中心</title>
+    7|   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+title is not defined
+    at eval (eval at <anonymous> (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:11:23)
+    at returnedFn (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\NewWork\git\thinking\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\NewWork\git\thinking\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\NewWork\git\thinking\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\NewWork\git\thinking\node_modules\express\lib\response.js:961:7)
+    at exports.showLogin (e:\NewWork\git\thinking\controllers\login\login.js:16:9)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+[2015-11-04 11:33:55.533] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:33:56.788] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:33:56.807] [ERROR] normal - GET /login
+[2015-11-04 11:33:56.808] [ERROR] dev-error - ReferenceError: e:\NewWork\git\thinking\views\login.ejs:4
+    2| <html>
+    3| <head>
+ >> 4|   <title><%= title %></title>
+    5|   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    6|   <title>用户登录 - 开发者中心</title>
+    7|   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+title is not defined
+    at eval (eval at <anonymous> (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:464:12), <anonymous>:11:23)
+    at returnedFn (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:493:17)
+    at View.exports.renderFile [as engine] (e:\NewWork\git\thinking\node_modules\ejs\lib\ejs.js:350:31)
+    at View.render (e:\NewWork\git\thinking\node_modules\express\lib\view.js:126:8)
+    at tryRender (e:\NewWork\git\thinking\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (e:\NewWork\git\thinking\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (e:\NewWork\git\thinking\node_modules\express\lib\response.js:961:7)
+    at exports.showLogin (e:\NewWork\git\thinking\controllers\login\login.js:16:9)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+[2015-11-04 11:34:13.020] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:34:14.028] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:14.042] [INFO] normal - GET /login
+[2015-11-04 11:34:14.071] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:14.074] [WARN] normal - GET /login
+[2015-11-04 11:34:14.152] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:14.154] [WARN] normal - GET /login
+[2015-11-04 11:34:19.493] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:19.494] [WARN] normal - GET /login
+[2015-11-04 11:34:19.508] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:19.511] [WARN] normal - GET /login
+[2015-11-04 11:34:37.498] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:34:38.495] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:38.509] [INFO] normal - GET /login
+[2015-11-04 11:34:38.523] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:38.526] [WARN] normal - GET /login
+[2015-11-04 11:34:38.969] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:38.974] [WARN] normal - GET /login
+[2015-11-04 11:34:39.006] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:39.008] [WARN] normal - GET /login
+[2015-11-04 11:34:39.158] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:39.159] [WARN] normal - GET /login
+[2015-11-04 11:34:39.175] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:39.177] [WARN] normal - GET /login
+[2015-11-04 11:34:39.310] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:39.313] [WARN] normal - GET /login
+[2015-11-04 11:34:39.327] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:39.328] [WARN] normal - GET /login
+[2015-11-04 11:34:39.471] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:39.472] [WARN] normal - GET /login
+[2015-11-04 11:34:39.486] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:34:39.487] [WARN] normal - GET /login
+[2015-11-04 11:36:14.096] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:36:15.327] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:36:15.353] [INFO] normal - GET /login
+[2015-11-04 11:36:16.607] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:36:16.616] [WARN] normal - GET /login
+[2015-11-04 11:36:50.651] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:36:50.654] [WARN] normal - GET /login
+[2015-11-04 11:36:50.848] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:36:50.850] [WARN] normal - GET /login
+[2015-11-04 11:36:50.998] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:36:50.999] [WARN] normal - GET /login
+[2015-11-04 11:37:36.570] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:37:36.575] [WARN] normal - GET /login
+[2015-11-04 11:38:02.162] [INFO] console - Express server listening on port 3000
+[2015-11-04 11:38:07.359] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:38:07.384] [WARN] normal - GET /login
+[2015-11-04 11:38:07.863] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:38:07.870] [WARN] normal - GET /login
+[2015-11-04 11:38:08.253] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:38:08.255] [WARN] normal - GET /login
+[2015-11-04 11:38:41.116] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:38:41.117] [WARN] normal - GET /login
+[2015-11-04 11:39:03.164] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:39:03.172] [INFO] normal - GET /login
+[2015-11-04 11:39:03.776] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 11:39:03.781] [WARN] normal - GET /login
+[2015-11-04 13:16:46.290] [INFO] console - Express server listening on port 3000
+[2015-11-04 13:16:47.003] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 13:16:47.033] [ERROR] normal - GET /login
+[2015-11-04 13:16:47.034] [ERROR] dev-error - TypeError: Cannot read property 'user' of undefined
+    at exports.authentication (e:\NewWork\git\thinking\controllers\login\login.js:28:21)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 13:59:56.331] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 13:59:56.390] [ERROR] normal - GET /login
+[2015-11-04 13:59:56.394] [ERROR] dev-error - TypeError: Cannot read property 'user' of undefined
+    at exports.authentication (e:\NewWork\git\thinking\controllers\login\login.js:28:21)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 13:59:58.914] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 13:59:58.921] [ERROR] normal - GET /login
+[2015-11-04 13:59:58.922] [ERROR] dev-error - TypeError: Cannot read property 'user' of undefined
+    at exports.authentication (e:\NewWork\git\thinking\controllers\login\login.js:28:21)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\NewWork\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-04 14:12:24.652] [INFO] console - Express server listening on port 3000
+[2015-11-04 14:12:27.896] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.913] [WARN] normal - GET /login
+[2015-11-04 14:12:27.945] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.948] [WARN] normal - GET /login
+[2015-11-04 14:12:27.949] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.950] [WARN] normal - GET /login
+[2015-11-04 14:12:27.952] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.952] [WARN] normal - GET /login
+[2015-11-04 14:12:27.954] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.956] [WARN] normal - GET /login
+[2015-11-04 14:12:27.958] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.959] [WARN] normal - GET /login
+[2015-11-04 14:12:27.961] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.962] [WARN] normal - GET /login
+[2015-11-04 14:12:27.964] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.965] [WARN] normal - GET /login
+[2015-11-04 14:12:27.966] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.967] [WARN] normal - GET /login
+[2015-11-04 14:12:27.970] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.971] [WARN] normal - GET /login
+[2015-11-04 14:12:27.974] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.975] [WARN] normal - GET /login
+[2015-11-04 14:12:27.977] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.978] [WARN] normal - GET /login
+[2015-11-04 14:12:27.980] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.980] [WARN] normal - GET /login
+[2015-11-04 14:12:27.982] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.983] [WARN] normal - GET /login
+[2015-11-04 14:12:27.985] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.997] [WARN] normal - GET /login
+[2015-11-04 14:12:27.998] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:27.999] [WARN] normal - GET /login
+[2015-11-04 14:12:28.001] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.003] [WARN] normal - GET /login
+[2015-11-04 14:12:28.008] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.009] [WARN] normal - GET /login
+[2015-11-04 14:12:28.011] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.011] [WARN] normal - GET /login
+[2015-11-04 14:12:28.013] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.014] [WARN] normal - GET /login
+[2015-11-04 14:12:28.015] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.016] [WARN] normal - GET /login
+[2015-11-04 14:12:28.193] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.194] [WARN] normal - GET /login
+[2015-11-04 14:12:28.198] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.199] [WARN] normal - GET /login
+[2015-11-04 14:12:28.201] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.202] [WARN] normal - GET /login
+[2015-11-04 14:12:28.203] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.204] [WARN] normal - GET /login
+[2015-11-04 14:12:28.206] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.207] [WARN] normal - GET /login
+[2015-11-04 14:12:28.209] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.211] [WARN] normal - GET /login
+[2015-11-04 14:12:28.213] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.213] [WARN] normal - GET /login
+[2015-11-04 14:12:28.215] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.216] [WARN] normal - GET /login
+[2015-11-04 14:12:28.217] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.218] [WARN] normal - GET /login
+[2015-11-04 14:12:28.220] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.221] [WARN] normal - GET /login
+[2015-11-04 14:12:28.223] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.223] [WARN] normal - GET /login
+[2015-11-04 14:12:28.225] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.227] [WARN] normal - GET /login
+[2015-11-04 14:12:28.230] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.231] [WARN] normal - GET /login
+[2015-11-04 14:12:28.232] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.233] [WARN] normal - GET /login
+[2015-11-04 14:12:28.234] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.235] [WARN] normal - GET /login
+[2015-11-04 14:12:28.236] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.237] [WARN] normal - GET /login
+[2015-11-04 14:12:28.239] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.240] [WARN] normal - GET /login
+[2015-11-04 14:12:28.242] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.242] [WARN] normal - GET /login
+[2015-11-04 14:12:28.244] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.245] [WARN] normal - GET /login
+[2015-11-04 14:12:28.246] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.247] [WARN] normal - GET /login
+[2015-11-04 14:12:28.248] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:28.249] [WARN] normal - GET /login
+[2015-11-04 14:12:33.254] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.257] [WARN] normal - GET /login
+[2015-11-04 14:12:33.263] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.268] [WARN] normal - GET /login
+[2015-11-04 14:12:33.276] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.279] [WARN] normal - GET /login
+[2015-11-04 14:12:33.285] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.287] [WARN] normal - GET /login
+[2015-11-04 14:12:33.292] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.293] [WARN] normal - GET /login
+[2015-11-04 14:12:33.295] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.296] [WARN] normal - GET /login
+[2015-11-04 14:12:33.299] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.300] [WARN] normal - GET /login
+[2015-11-04 14:12:33.303] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.304] [WARN] normal - GET /login
+[2015-11-04 14:12:33.306] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.307] [WARN] normal - GET /login
+[2015-11-04 14:12:33.309] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.310] [WARN] normal - GET /login
+[2015-11-04 14:12:33.312] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.313] [WARN] normal - GET /login
+[2015-11-04 14:12:33.316] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.317] [WARN] normal - GET /login
+[2015-11-04 14:12:33.319] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.320] [WARN] normal - GET /login
+[2015-11-04 14:12:33.323] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.324] [WARN] normal - GET /login
+[2015-11-04 14:12:33.326] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.327] [WARN] normal - GET /login
+[2015-11-04 14:12:33.329] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.329] [WARN] normal - GET /login
+[2015-11-04 14:12:33.331] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.331] [WARN] normal - GET /login
+[2015-11-04 14:12:33.333] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.333] [WARN] normal - GET /login
+[2015-11-04 14:12:33.335] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.335] [WARN] normal - GET /login
+[2015-11-04 14:12:33.337] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.337] [WARN] normal - GET /login
+[2015-11-04 14:12:33.339] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:12:33.339] [WARN] normal - GET /login
+[2015-11-04 14:13:25.058] [INFO] console - Express server listening on port 3000
+[2015-11-04 14:13:27.000] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:13:27.003] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:13:27.029] [INFO] normal - GET /login
+[2015-11-04 14:13:33.969] [INFO] dev-error - controllers/index.js
+[2015-11-04 14:13:33.981] [INFO] normal - GET /
+[2015-11-04 14:13:34.023] [ERROR] normal - GET /javascripts/respond.js
+[2015-11-04 14:13:34.024] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 14:14:18.277] [INFO] dev-error - controllers/index.js
+[2015-11-04 14:14:18.278] [WARN] normal - GET /
+[2015-11-04 14:14:18.298] [ERROR] normal - GET /javascripts/respond.js
+[2015-11-04 14:14:18.299] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 14:14:39.965] [INFO] console - Express server listening on port 3000
+[2015-11-04 14:14:41.465] [INFO] dev-error - controllers/index.js
+[2015-11-04 14:14:41.478] [WARN] normal - GET /
+[2015-11-04 14:14:41.499] [ERROR] normal - GET /javascripts/respond.js
+[2015-11-04 14:14:41.499] [ERROR] dev-error - Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:16:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-04 14:15:51.124] [INFO] console - Express server listening on port 3000
+[2015-11-04 14:15:53.267] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:15:53.276] [WARN] normal - GET /
+[2015-11-04 14:15:53.279] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:15:53.279] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:15:53.288] [WARN] normal - GET /login
+[2015-11-04 14:15:56.621] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:15:56.622] [WARN] normal - GET /
+[2015-11-04 14:15:56.624] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:15:56.624] [INFO] dev-error - controllers/login/login.js
+[2015-11-04 14:15:56.625] [WARN] normal - GET /login

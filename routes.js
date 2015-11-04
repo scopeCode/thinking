@@ -1,22 +1,21 @@
 /**
  * Created by WG on 2015/11/3.
  */
+var errorHandler = require('errorhandler');
+
+var login             = require("./controllers/login/login");
+var index             = require("./controllers/index");
 
 module.exports = function (app) {
-    app.get("/", function(req, res, next) {
-        try{
-            res.render('index', { title: 'Express' });
-        }catch(ex){
-            next(err);
-        }
-    });
 
-    // catch 404 and forward to error handler
+    app.route("/").all(login.authentication).get(index.showIndex);
+    app.route("/login").all(login.notAuthentication).get(login.showLogin).post();
+
+    //404错误页面的处理
     app.use(function(req, res, next) {
-        var err = new Error('Not Found');
-        err.status = 404;
-        next(err);
+        var err = new Error('Not Found');err.status = 404;next(err);
     });
+    //其他错误的处理
     app.use(function(err, req, res, next) {
         var status = err.status || 500;
         res.status(status);
@@ -34,5 +33,19 @@ module.exports = function (app) {
                 error: {}
             });
         }
+        next(err);
     });
-}
+    //错误处理接受处理
+    app.use(errorHandler(
+    {
+        dumpExceptions: true,
+        showStack: true ,
+        log:function(err, str, req){
+            global.logger.error(str);
+        }
+    }));
+    //应用程序出错执行的处理
+    process.on("uncaughtException", function (err) {
+        global.logger.error(err);
+    });
+};

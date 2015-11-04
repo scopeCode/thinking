@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>用户登录</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+  <link href="/stylesheets/bootstrap-theme.css" rel="stylesheet">
+  <link href="/stylesheets/bootstrap-modal.css" rel="stylesheet">
+  <link href="/stylesheets/bootstrap-modal-bs3patch.css" rel="stylesheet">
+  <link href="/stylesheets/base-main.css" rel="stylesheet">
+  <script src="/javascripts/jquery-1.10.2.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+</head>
+<body>
+<header class="navbar navbar-default navbar-fixed-top" role="banner" style="height:62px">
+  <div class="container" style="background-color:transparent; padding-top:8px">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" title="首页">
+        <img src="/images/yu.png" style="width: 154px; height: 35px; margin-right: 10px;margin-top:5px">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse  bs-navbar-collapse" style="font-size:16px;" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>&nbsp;&nbsp;&nbsp;</li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">登录</a></li>
+        <li><a href="#">注册</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container" style="padding-top: 15px; ">
+  <form class="form-horizontal" style="max-width: 350px; min-height: 550px; margin: 0 auto;" action="http://kf.facecore.cn/Account/Login" method="POST">
+    <div class="form-group row">
+      <div class="col-md-offset-2 col-md-10">
+        <h2>用户登录</h2>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-md-12">
+        <input name="UserName" type="email" maxlength="79" min="5" class="form-control input-lg" placeholder="邮箱地址" required="" autofocus="">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-md-12">
+        <input name="Password" type="password" class="form-control input-lg" maxlength="12" min="6" placeholder="登录密码" required="" autofocus="">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-md-11">
+        <button class="btn btn-lg btn-primary" type="submit" style="width: 120px;">登录</button>
+        <a href="#" class="btn btn-lg btn-success" style="width: 120px;">注册</a>
+      </div>
+    </div>
+  </form>
+
+</div>
+
+<div class="footer text-muted" style="text-align: center;">
+  <p>
+    <a href="#" class="text-muted" title="关于网站">关于网站</a> |
+    <a href="#" class="text-muted" title="服务条款">服务条款</a> |
+    <a href="#" class="text-muted" title="隐私政策">隐私政策</a>|
+    <a href="#" class="text-muted" title="媒体报道">媒体报道</a> |
+    <a href="#" class="text-muted" title="联系我们">联系我们</a>
+  </p>
+  <p>
+    Copyright © 2013 FaceCore. All Rights Reserved. FaceCore 版权所有
+  </p>
+</div>
+</body>
+</html>
