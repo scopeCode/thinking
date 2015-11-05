@@ -100,13 +100,13 @@
         data:data,
         success:function(data,status){
           if(data.result==1 && status == 'success'){
-            location.href=host;
+              location.href=host;
           }else{
-            console.log(data.msg);
+              alert(data.msg);
           }
         },
         error:function(res){
-          console.error(res);
+             alert(res);
         }
       });
     });

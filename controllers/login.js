@@ -1,9 +1,8 @@
 /**
  * Created by WG on 2015/11/4.
  */
-var crypto = require('crypto');
-
-
+var common = require("../common/common");
+var userSchema = require("../schema/user");
 /**
  * show login page
  * @param  {object}   req  the request object
@@ -25,25 +24,19 @@ exports.showLogin = function (req, res, next) {
  */
 exports.signIn = function (req, res, next) {
     global.logger.info("controllers/login/login.js  -- signIn");
-    global.logger.info(req.body);
 
     var userName = req.body.userName;
-    var userPwd  = md5(req.body.userPwd);
+    var userPwd  = common.md5(req.body.userPwd);
 
-    global.logger.info(userPwd + "的MD5值:" + md5(userPwd));
-
-    var user={
-        username:'1@163.com',
-        password:md5('123456')
-    };
-
-    if(userName==user.username&&userPwd==user.password)
-    {
-        req.session.user = user;
-        res.send(200,{result:1,data:{},msg:''});
-    }else{
-        res.send(200,{result:0,data:{},msg:'用户名或密码错误.'});
-    }
+    userSchema.signIn(userName,userPwd,function(err,data){
+        if(err){
+            res.send(200,common.error(err.message));
+        }else{
+            var user = {userName:userName};
+            req.session.user = user;
+            res.send(200,common.success(user));
+        }
+    });
 };
 
 /**
@@ -77,9 +70,3 @@ exports.notAuthentication = function (req, res, next) {
     }
     next();
 };
-
-function md5(content){
-    var md5 = crypto.createHash('md5');
-    md5.update(content);
-    return md5.digest('hex');
-}

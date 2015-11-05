@@ -1,9 +1,8 @@
 /**
- * Created by WG on 2015/11/4.
+ * Created by WG on 2015/11/5.
  */
-
 /**
- * show index page
+ * show 500 page
  * @param  {object}   req  the request object
  * @param  {object}   res  the response object
  * @param  {Function} next the next handler
@@ -11,8 +10,8 @@
  */
 exports.show = function (req, res, next) {
     try{
-        global.logger.info("controllers/index.js");
-        res.render('index', { title: '网站首页' });
+        global.logger.info("controllers/500.js");
+        res.render("errors/500");
     }catch(ex){
         next(ex);
     }

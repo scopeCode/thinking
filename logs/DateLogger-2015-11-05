@@ -1,0 +1,243 @@
+[2015-11-05 14:10:59.036] [INFO] console - Express server listening on port 3000
+[2015-11-05 14:11:15.271] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 14:11:15.297] [WARN] normal - GET /
+[2015-11-05 14:11:15.327] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:11:15.327] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 14:11:15.419] [INFO] normal - GET /login
+[2015-11-05 14:11:17.272] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:11:17.272] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 14:11:17.273] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-05 14:11:17.276] [ERROR] console - ReferenceError: val is not defined
+    at Object.exports.stringify (e:\NewWork\git\thinking\common\common.js:12:17)
+    at e:\NewWork\git\thinking\routes.js:30:51
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-05 14:11:17.276] [ERROR] normal - POST /login
+[2015-11-05 14:11:23.054] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:11:23.055] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 14:11:23.055] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-05 14:11:23.056] [ERROR] console - ReferenceError: val is not defined
+    at Object.exports.stringify (e:\NewWork\git\thinking\common\common.js:12:17)
+    at e:\NewWork\git\thinking\routes.js:30:51
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Layer.handle_error (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:310:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-05 14:11:23.057] [ERROR] normal - POST /login
+[2015-11-05 14:15:44.924] [INFO] console - Express server listening on port 3000
+[2015-11-05 14:15:46.161] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:15:46.162] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 14:15:46.175] [WARN] normal - GET /login
+[2015-11-05 14:15:47.217] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:15:47.217] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 14:15:47.217] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-05 14:15:47.220] [ERROR] dev-logger: - [error]:ReferenceError: md5 is not defined
+    at exports.signIn (e:\NewWork\git\thinking\controllers\login.js:31:20)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:125:14)
+    at exports.notAuthentication (e:\NewWork\git\thinking\controllers\login.js:78:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+[2015-11-05 14:15:47.226] [WARN] normal - POST /login
+[2015-11-05 14:15:47.230] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:15:47.270] [WARN] normal - GET /500
+[2015-11-05 14:16:03.295] [INFO] console - Express server listening on port 3000
+[2015-11-05 14:16:04.788] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:16:04.788] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 14:16:04.803] [INFO] normal - GET /login
+[2015-11-05 14:16:05.960] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:16:05.960] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 14:16:05.960] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-05 14:16:05.962] [ERROR] dev-logger: - [error]:ReferenceError: crypto is not defined
+    at Object.exports.md5 (e:\NewWork\git\thinking\common\common.js:6:15)
+    at exports.signIn (e:\NewWork\git\thinking\controllers\login.js:31:27)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:125:14)
+    at exports.notAuthentication (e:\NewWork\git\thinking\controllers\login.js:78:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+[2015-11-05 14:16:05.966] [WARN] normal - POST /login
+[2015-11-05 14:16:05.969] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:16:05.971] [WARN] normal - GET /500
+[2015-11-05 14:16:28.650] [INFO] console - Express server listening on port 3000
+[2015-11-05 14:16:30.195] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:16:30.196] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 14:16:30.209] [INFO] normal - GET /login
+[2015-11-05 14:16:31.248] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:16:31.248] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 14:16:31.248] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-05 14:16:31.251] [ERROR] dev-logger: - [error]:ReferenceError: md5 is not defined
+    at exports.signIn (e:\NewWork\git\thinking\controllers\login.js:32:45)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:125:14)
+    at exports.notAuthentication (e:\NewWork\git\thinking\controllers\login.js:77:5)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (e:\NewWork\git\thinking\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:277:22
+[2015-11-05 14:16:31.255] [WARN] normal - POST /login
+[2015-11-05 14:16:31.257] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:16:31.259] [WARN] normal - GET /500
+[2015-11-05 14:16:45.576] [INFO] console - Express server listening on port 3000
+[2015-11-05 14:16:48.172] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:16:48.172] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 14:16:48.185] [INFO] normal - GET /login
+[2015-11-05 14:16:49.097] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 14:16:49.097] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 14:16:49.097] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-05 14:16:49.102] [INFO] normal - POST /login
+[2015-11-05 14:16:49.111] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 14:16:49.111] [INFO] dev-logger: - controllers/index.js
+[2015-11-05 14:16:49.184] [INFO] normal - GET /
+[2015-11-05 14:22:07.757] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 14:22:07.757] [INFO] dev-logger: - controllers/index.js
+[2015-11-05 14:22:07.794] [WARN] normal - GET /
+[2015-11-05 15:03:25.892] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 15:03:26.071] [WARN] normal - GET /
+[2015-11-05 15:03:26.111] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 15:03:26.112] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 15:03:26.180] [INFO] normal - GET /login
+[2015-11-05 15:03:27.736] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 15:03:27.737] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 15:03:27.737] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-05 15:03:27.743] [INFO] normal - POST /login
+[2015-11-05 15:03:27.754] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 15:03:27.755] [INFO] dev-logger: - controllers/index.js
+[2015-11-05 15:03:27.769] [INFO] normal - GET /
+[2015-11-05 15:09:16.639] [INFO] console - Express server listening on port 3000
+[2015-11-05 15:09:17.911] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 15:09:17.920] [WARN] normal - GET /
+[2015-11-05 15:09:17.935] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 15:09:17.935] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 15:09:18.003] [INFO] normal - GET /login
+[2015-11-05 15:09:20.780] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 15:09:20.780] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 15:09:20.780] [INFO] dev-logger: - { userName: '1@163.com', userPwd: '123456' }
+[2015-11-05 15:09:20.783] [INFO] normal - POST /login
+[2015-11-05 15:09:20.787] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 15:09:20.787] [INFO] dev-logger: - controllers/index.js
+[2015-11-05 15:09:20.800] [INFO] normal - GET /
+[2015-11-05 16:38:13.970] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:38:30.731] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:39:05.197] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:39:12.670] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 16:39:12.707] [WARN] normal - GET /
+[2015-11-05 16:39:12.730] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:39:12.730] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 16:39:12.767] [INFO] normal - GET /login
+[2015-11-05 16:39:19.692] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:39:19.693] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:39:19.905] [INFO] normal - POST /login
+[2015-11-05 16:41:06.821] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:42:25.134] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:42:28.363] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:42:28.364] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 16:42:28.376] [INFO] normal - GET /login
+[2015-11-05 16:42:36.858] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:42:36.858] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:42:36.858] [INFO] dev-logger: - d:e10adc3949ba59abbe56e057f20f883e
+[2015-11-05 16:42:36.987] [INFO] normal - POST /login
+[2015-11-05 16:45:27.109] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:45:29.762] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:45:29.762] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 16:45:29.775] [INFO] normal - GET /login
+[2015-11-05 16:45:33.375] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:45:33.375] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:45:33.375] [INFO] dev-logger: - d:e10adc3949ba59abbe56e057f20f883e
+[2015-11-05 16:45:33.479] [INFO] normal - POST /login
+[2015-11-05 16:46:55.554] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:46:55.554] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:46:55.555] [INFO] dev-logger: - d:e10adc3949ba59abbe56e057f20f883e
+[2015-11-05 16:46:55.561] [INFO] normal - POST /login
+[2015-11-05 16:47:34.131] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:47:36.979] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:47:36.979] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 16:47:36.995] [INFO] normal - GET /login
+[2015-11-05 16:47:39.870] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:47:39.871] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:47:39.871] [INFO] dev-logger: - d:e10adc3949ba59abbe56e057f20f883e
+[2015-11-05 16:47:39.968] [INFO] normal - POST /login
+[2015-11-05 16:48:34.246] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:49:55.117] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:49:59.536] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:49:59.537] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 16:49:59.551] [INFO] normal - GET /login
+[2015-11-05 16:50:02.037] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:50:02.038] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:50:02.165] [INFO] normal - POST /login
+[2015-11-05 16:51:03.379] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:51:05.595] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:51:05.595] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 16:51:05.611] [INFO] normal - GET /login
+[2015-11-05 16:51:07.717] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:51:07.717] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:51:07.815] [INFO] normal - POST /login
+[2015-11-05 16:51:54.618] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:51:56.047] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:51:56.048] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 16:51:56.061] [INFO] normal - GET /login
+[2015-11-05 16:51:58.887] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:51:58.887] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:51:59.009] [INFO] normal - POST /login
+[2015-11-05 16:52:02.885] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 16:52:02.885] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 16:52:02.889] [INFO] normal - POST /login
+[2015-11-05 16:53:22.721] [INFO] console - Express server listening on port 3000
+[2015-11-05 16:54:13.110] [INFO] console - Express server listening on port 3000
+[2015-11-05 17:11:51.237] [INFO] console - Express server listening on port 3000
+[2015-11-05 17:12:56.927] [INFO] console - Express server listening on port 3000
+[2015-11-05 17:14:24.884] [INFO] console - Express server listening on port 3000
+[2015-11-05 17:14:45.552] [INFO] console - Express server listening on port 3000
+[2015-11-05 17:15:46.283] [INFO] console - Express server listening on port 3000
+[2015-11-05 17:15:49.981] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 17:15:49.982] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 17:15:49.995] [INFO] normal - GET /login
+[2015-11-05 17:15:52.328] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 17:15:52.328] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 17:15:52.482] [INFO] normal - POST /login
+[2015-11-05 17:15:55.313] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 17:15:55.313] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 17:15:55.318] [INFO] normal - POST /login
+[2015-11-05 17:15:59.370] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 17:15:59.371] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 17:15:59.374] [INFO] normal - POST /login
+[2015-11-05 17:16:03.121] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 17:16:03.122] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 17:16:03.128] [INFO] normal - POST /login
+[2015-11-05 17:16:03.139] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 17:16:03.140] [INFO] dev-logger: - controllers/index.js
+[2015-11-05 17:16:03.153] [INFO] normal - GET /
+[2015-11-05 17:16:51.690] [INFO] console - Express server listening on port 3000
+[2015-11-05 17:16:54.064] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 17:16:54.075] [WARN] normal - GET /
+[2015-11-05 17:16:54.079] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 17:16:54.079] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-05 17:16:54.090] [INFO] normal - GET /login
+[2015-11-05 17:16:56.618] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 17:16:56.618] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 17:16:56.730] [INFO] normal - POST /login
+[2015-11-05 17:16:59.801] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-05 17:16:59.801] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-05 17:16:59.806] [INFO] normal - POST /login
+[2015-11-05 17:16:59.811] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-05 17:16:59.811] [INFO] dev-logger: - controllers/index.js
+[2015-11-05 17:16:59.813] [INFO] normal - GET /

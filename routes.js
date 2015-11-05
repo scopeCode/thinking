@@ -1,34 +1,32 @@
 /**
  * Created by WG on 2015/11/3.
  */
-
-var login             = require("./controllers/login/login");
-var index             = require("./controllers/index");
+var common              = require("./common/common");
+var login               = require("./controllers/login");
+var index               = require("./controllers/index");
+var index404            = require("./controllers/404");
+var index500             = require("./controllers/500");
 
 module.exports = function (app) {
 
 
-    app.route("/404").all(login.notAuthentication).get(function(req, res, next){
-        res.render("errors/404");
-    });
-    app.route("/500").all(login.notAuthentication).get(function(req, res, next){
-        res.render("errors/500");
-    });
-    app.route("/").all(login.authentication).get(index.showIndex);
+    app.route("/404").all(login.notAuthentication).get(index404.show);
+    app.route("/500").all(login.notAuthentication).get(index500.show);
+
+    app.route("/").all(login.authentication).get(index.show);
     app.route("/login").all(login.notAuthentication).get(login.showLogin).post(login.signIn);
 
     //404错误页面的处理
     app.use(function(req, res, next) {
         var err = new Error('Not Found');err.status = 404;next(err);
     });
-
     //其他错误的处理
     app.use(function(err, req, res, next) {
         var status = err.status || 500;
         res.status(status);
 
         if(err){
-            global.logger.error("[error]:"+stringify(err));
+            global.logger.error("[error]:"+common.stringify(err));
         }
 
         if(404 == status){
@@ -54,12 +52,3 @@ module.exports = function (app) {
         global.logger.error("[uncaughtException]:"+err);
     });
 };
-
-function stringify(val) {
-    var stack = val.stack;
-    if (stack) {
-        return String(stack);
-    }
-    var str = String(val);
-    return str === toString.call(val) ? inspect(val) : str;
-}
