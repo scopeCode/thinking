@@ -22,13 +22,6 @@ var User = mysqlCient.sequelize.define('user',
         }
 );
 
-/*User.sync({force: true}).then(function () {
-    return User.create({
-        userName: '1@163.com',
-        userPwd: 'e10adc3949ba59abbe56e057f20f883e'
-    });
-});*/
-
 exports.signIn = function(userName,userPwd,callback){
     User.findOne({
         attributes:["id","userName","userPwd"],
@@ -48,3 +41,11 @@ exports.signIn = function(userName,userPwd,callback){
     });
 };
 
+exports.init = function(){
+    User.sync({force: true}).then(function () {
+        return User.create({
+            userName: '1@163.com',
+            userPwd: 'e10adc3949ba59abbe56e057f20f883e'
+        });
+    });
+}
