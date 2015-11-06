@@ -44,8 +44,8 @@ exports.signIn = function(userName,userPwd,callback){
 exports.init = function(){
     User.sync({force: true}).then(function () {
         return User.create({
-            userName: '1@163.com',
+            userName: 'admin@kfcode.cn',
             userPwd: 'e10adc3949ba59abbe56e057f20f883e'
         });
     });
-}
+};

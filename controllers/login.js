@@ -10,7 +10,7 @@ var userSchema = require("../schema/user");
  * @param  {Function} next the next handler
  * @return {null}
  */
-exports.showLogin = function (req, res, next) {
+exports.show = function (req, res, next) {
     global.logger.info("controllers/login/login.js -- showLogin");
     res.render("login");
 };

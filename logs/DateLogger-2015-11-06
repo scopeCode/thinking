@@ -1,0 +1,152 @@
+[2015-11-06 06:59:00.562] [INFO] console - Express server listening on port 80
+[2015-11-06 06:59:00.968] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\webstorm\git\thinking\routes.js:25:19
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at session (e:\webstorm\git\thinking\node_modules\express-session\index.js:402:7)
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\webstorm\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-06 06:59:00.983] [WARN] normal - GET /a.js
+[2015-11-06 06:59:00.987] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\webstorm\git\thinking\routes.js:25:19
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at session (e:\webstorm\git\thinking\node_modules\express-session\index.js:402:7)
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\webstorm\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-06 06:59:00.989] [WARN] normal - GET /a.js
+[2015-11-06 06:59:00.995] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 06:59:00.995] [INFO] dev-logger: - controllers/404.js
+[2015-11-06 06:59:01.029] [WARN] normal - GET /404
+[2015-11-06 06:59:01.030] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\webstorm\git\thinking\routes.js:25:19
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at session (e:\webstorm\git\thinking\node_modules\express-session\index.js:402:7)
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\webstorm\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-06 06:59:01.031] [WARN] normal - GET /a.js
+[2015-11-06 06:59:01.033] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 06:59:01.033] [INFO] dev-logger: - controllers/404.js
+[2015-11-06 06:59:01.035] [WARN] normal - GET /404
+[2015-11-06 06:59:01.037] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\webstorm\git\thinking\routes.js:25:19
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at session (e:\webstorm\git\thinking\node_modules\express-session\index.js:402:7)
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\webstorm\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-06 06:59:01.039] [WARN] normal - GET /a.js
+[2015-11-06 06:59:01.041] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 06:59:01.041] [INFO] dev-logger: - controllers/404.js
+[2015-11-06 06:59:01.042] [WARN] normal - GET /404
+[2015-11-06 06:59:01.044] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\webstorm\git\thinking\routes.js:25:19
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at session (e:\webstorm\git\thinking\node_modules\express-session\index.js:402:7)
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at e:\webstorm\git\thinking\node_modules\mo\log\node_modules\log4js\lib\connect-logger.js:104:5
+    at Layer.handle [as handle_request] (e:\webstorm\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\webstorm\git\thinking\node_modules\express\lib\router\index.js:280:7
+[2015-11-06 06:59:01.045] [WARN] normal - GET /a.js
+[2015-11-06 06:59:01.049] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 06:59:01.050] [INFO] dev-logger: - controllers/404.js
+[2015-11-06 06:59:01.050] [WARN] normal - GET /404
+[2015-11-06 06:59:01.056] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 06:59:01.056] [INFO] dev-logger: - controllers/404.js
+[2015-11-06 06:59:01.058] [WARN] normal - GET /404
+[2015-11-06 06:59:05.663] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 06:59:05.665] [WARN] normal - GET /
+[2015-11-06 06:59:06.160] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 06:59:06.160] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 06:59:06.174] [WARN] normal - GET /login
+[2015-11-06 06:59:11.372] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 06:59:11.372] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 06:59:11.483] [INFO] normal - POST /login
+[2015-11-06 06:59:11.846] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 06:59:11.846] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 06:59:11.909] [INFO] normal - GET /
+[2015-11-06 06:59:25.566] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 06:59:25.567] [WARN] normal - GET /
+[2015-11-06 06:59:25.573] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 06:59:25.573] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 06:59:25.575] [INFO] normal - GET /login
+[2015-11-06 07:00:29.015] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 07:00:29.016] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 07:00:29.017] [INFO] normal - GET /login
+[2015-11-06 07:00:30.458] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 07:00:30.460] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 07:00:30.462] [WARN] normal - GET /login
+[2015-11-06 07:00:37.241] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 07:00:37.241] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 07:00:37.247] [INFO] normal - POST /login
+[2015-11-06 07:00:37.286] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 07:00:37.286] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 07:00:37.294] [INFO] normal - GET /
+[2015-11-06 07:02:06.726] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 07:02:06.727] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 07:02:06.734] [WARN] normal - GET /
+[2015-11-06 07:02:52.087] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 07:02:52.088] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 07:02:52.101] [WARN] normal - GET /
+[2015-11-06 07:02:53.106] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 07:02:53.106] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 07:02:53.120] [WARN] normal - GET /
+[2015-11-06 07:03:17.491] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 07:03:17.491] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 07:03:17.509] [WARN] normal - GET /
+[2015-11-06 07:03:20.301] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 07:03:20.301] [INFO] dev-logger: - controllers/create.js
+[2015-11-06 07:03:20.315] [INFO] normal - GET /create
+[2015-11-06 07:03:23.335] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 07:03:23.335] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 07:03:23.338] [WARN] normal - GET /

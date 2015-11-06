@@ -6,6 +6,8 @@ var login               = require("./controllers/login");
 var index               = require("./controllers/index");
 var index404            = require("./controllers/404");
 var index500             = require("./controllers/500");
+var article               = require("./controllers/article");
+var upload               = require("./controllers/upload");
 
 module.exports = function (app) {
 
@@ -14,7 +16,9 @@ module.exports = function (app) {
     app.route("/500").all(login.notAuthentication).get(index500.show);
 
     app.route("/").all(login.authentication).get(index.show);
-    app.route("/login").all(login.notAuthentication).get(login.showLogin).post(login.signIn);
+    app.route("/login").all(login.notAuthentication).get(login.show).post(login.signIn);
+    app.route("/create").all(login.authentication).get(article.show).post(article.insert);
+    app.route("/upload").all(login.authentication).post(upload.upload);
 
     //404错误页面的处理
     app.use(function(req, res, next) {
