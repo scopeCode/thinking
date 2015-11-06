@@ -10,18 +10,29 @@
     <script src="/javascripts/bootstrap.js"></script>
   </head>
   <body>
-  <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="container">
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-        <ul class="nav navbar-nav" style="float: right;" >
-          <li class="active"><a href="/create">发布新文章</a></li>
-        </ul>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/create">发布新文章</a></li>
+          <li ><a href="javascript:;;">文章管理</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
     </div>
   </nav>
 
     <% if(data.length > 0) {%>
-      <section id="cd-timeline" class="cd-container">
+      <section id="cd-timeline" class="cd-container" style="margin-top: 50px;">
         <% for(var i=0; i<data.length; i++) { %>
           <div class="cd-timeline-block">
             <div class="cd-timeline-img cd-picture">
@@ -46,8 +57,7 @@
       <% } else {%>
         <div id="divProductDetailEmpty" class="empty">
           <div class="ic-empty"></div>
-          <p class="text-center">暂无记录</p>
-          <a class="btn btn-primary btn-lg" href="/">刷新本页</a>
+          <p class="text-center">暂无记录 <br/> <br/> <a class="btn btn-primary btn-lg" href="/">刷新本页</a></p>
         </div>
       <%}%>
   <div id="divLoad" style="display:none;"><div class="load"><i></i>请稍候...</div><div class="modal-backdrop fade in"></div></div>
