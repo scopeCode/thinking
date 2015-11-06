@@ -50,7 +50,9 @@ exports.insert = function(title,desc,img,callback){
 
 
 exports.getAll = function(callback){
-    Article.findAll().then(function(u){
+    Article.findAll({
+        order: 'created DESC'
+    }).then(function(u){
         if(!u){
             callback(new Error("没有数据."),null);
         }else{
