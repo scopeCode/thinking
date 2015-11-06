@@ -98,7 +98,7 @@
 
       function query(){
         var currentPage = parseInt($("#currentPage").val()) + 1;
-        var data = "offset="+currentPage+"&limit=2";
+        var data = "offset="+currentPage+"&limit=10";
         var host = 'http://'+window.location.host;
         $.ajax({
           url:host+'/article/getAll',
