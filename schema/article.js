@@ -19,12 +19,24 @@ var Article = mysqlCient.sequelize.define('article',
             type:mysqlCient.Sequelize.STRING,
             field:"img"
         },
+        type:{
+            type:mysqlCient.Sequelize.INTEGER,
+            field:"type"
+        },
         created:{
             type:mysqlCient.Sequelize.DATE,
-            defaultValue:mysqlCient.Sequelize.NOW,
-            field:"created"
+            defaultValue:common.dateFormat("yyyy-MM-dd HH:mm:ss",new Date()),
+            field:"created",
+            get: function()  {
+                var created = this.getDataValue('created');
+                return common.dateFormat("yyyy-MM-dd HH:mm:ss",created);
+            }
         },
-
+        delete:{
+            type:mysqlCient.Sequelize.BOOLEAN,
+            field:'delete',
+            defaultValue:0
+        }
     },
     {
         freezeTableName: true,
@@ -34,23 +46,24 @@ var Article = mysqlCient.sequelize.define('article',
 );
 
 
-exports.insert = function(title,desc,img,callback){
-
+exports.insert = function(title,desc,img,type,callback){
     Article.create({
         title:title,
         desc:desc,
-        img:img
+        img:img,
+        type:type
     }).then(function(a){
         callback(null,a);
     }).catch(function(err){
         callback(err,null);
     });
-
 };
 
 
-exports.getAll = function(callback){
+exports.getAll = function(offset,limit,callback){
     Article.findAll({
+        offset: offset,
+        limit: limit,
         order: 'created DESC'
     }).then(function(u){
         if(!u){

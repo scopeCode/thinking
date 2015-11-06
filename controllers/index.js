@@ -15,7 +15,9 @@ exports.show = function (req, res, next) {
     try{
         global.logger.info("controllers/index.js");
 
-        article.getAll(function(err,a){
+        var offset = req.body.offset|| 0,limit = req.body.limit || 10;
+
+        article.getAll(offset,limit,function(err,a){
             if(!err){
                 res.render('index',{data:a});
             }else{

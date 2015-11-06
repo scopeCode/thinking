@@ -31,16 +31,14 @@ exports.show = function (req, res, next) {
  */
 exports.insert = function (req, res, next) {
     try{
-
-        var title = req.body.title,desc=req.body.desc,img=req.body.img;
-        article.insert(title,desc,img,function(err,a){
+        var title = req.body.title,desc=req.body.desc,img=req.body.img,type=req.body.type;
+        article.insert(title,desc,img,type,function(err,a){
             if(err){
                 res.send(200,common.error(err.message));
             }else{
                 res.send(200,common.success(a));
             }
         });
-
     }catch(ex){
         next(ex);
     }

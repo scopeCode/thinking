@@ -397,3 +397,292 @@
 [2015-11-06 13:18:31.479] [INFO] dev-logger: - controllers/login/login.js  -- authentication
 [2015-11-06 13:18:31.479] [INFO] dev-logger: - controllers/index.js
 [2015-11-06 13:18:31.484] [WARN] normal - GET /
+[2015-11-06 13:25:17.423] [INFO] console - Express server listening on port 3000
+[2015-11-06 13:25:20.598] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 13:25:20.611] [WARN] normal - GET /
+[2015-11-06 13:25:20.615] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 13:25:20.616] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 13:25:20.625] [INFO] normal - GET /login
+[2015-11-06 13:25:23.663] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 13:25:23.663] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 13:25:23.776] [INFO] normal - POST /login
+[2015-11-06 13:25:23.787] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 13:25:23.787] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 13:25:23.802] [INFO] normal - GET /
+[2015-11-06 13:25:34.372] [INFO] console - Express server listening on port 3000
+[2015-11-06 13:25:35.327] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 13:25:35.337] [WARN] normal - GET /
+[2015-11-06 13:25:35.489] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 13:25:35.489] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 13:25:35.498] [INFO] normal - GET /login
+[2015-11-06 13:25:38.652] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 13:25:38.653] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 13:25:38.750] [INFO] normal - POST /login
+[2015-11-06 13:25:38.756] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 13:25:38.756] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 13:25:38.767] [INFO] normal - GET /
+[2015-11-06 13:26:09.462] [INFO] console - Express server listening on port 3000
+[2015-11-06 13:26:12.066] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 13:26:12.077] [WARN] normal - GET /
+[2015-11-06 13:26:12.081] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 13:26:12.081] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 13:26:12.090] [INFO] normal - GET /login
+[2015-11-06 13:26:15.280] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 13:26:15.280] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 13:26:15.390] [INFO] normal - POST /login
+[2015-11-06 13:26:15.396] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 13:26:15.397] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 13:26:15.403] [INFO] console - [ { dataValues: 
+     { id: 1,
+       title: '测试的标题',
+       desc: '测试的摘要',
+       img: 'FmgaJfComWjdy94clzJrtGoeBB9m',
+       created: Fri Nov 06 2015 11:42:41 GMT+0800 (中国标准时间) },
+    _previousDataValues: 
+     { id: 1,
+       title: '测试的标题',
+       desc: '测试的摘要',
+       img: 'FmgaJfComWjdy94clzJrtGoeBB9m',
+       created: Fri Nov 06 2015 11:42:41 GMT+0800 (中国标准时间) },
+    _changed: {},
+    '$modelOptions': 
+     { timestamps: false,
+       instanceMethods: {},
+       classMethods: {},
+       validate: {},
+       freezeTableName: true,
+       underscored: false,
+       underscoredAll: false,
+       paranoid: false,
+       whereCollection: null,
+       schema: null,
+       schemaDelimiter: '',
+       defaultScope: null,
+       scopes: [],
+       hooks: {},
+       indexes: [],
+       name: [Object],
+       tableName: 'article',
+       omitNull: false,
+       sequelize: [Object],
+       uniqueKeys: {},
+       hasPrimaryKeys: true },
+    '$options': 
+     { isNewRecord: false,
+       '$schema': null,
+       '$schemaDelimiter': '',
+       raw: true,
+       attributes: [Object] },
+    hasPrimaryKeys: true,
+    __eagerlyLoadedAssociations: [],
+    isNewRecord: false } ]
+[2015-11-06 13:26:15.411] [INFO] normal - GET /
+[2015-11-06 13:31:22.204] [INFO] console - Express server listening on port 3000
+[2015-11-06 13:31:37.102] [INFO] console - Express server listening on port 3000
+[2015-11-06 13:31:41.506] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 13:31:41.518] [WARN] normal - GET /
+[2015-11-06 13:31:41.522] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 13:31:41.522] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 13:31:41.532] [INFO] normal - GET /login
+[2015-11-06 13:31:44.567] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 13:31:44.567] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 13:31:44.676] [INFO] normal - POST /login
+[2015-11-06 13:31:44.682] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 13:31:44.683] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 13:31:44.700] [INFO] normal - GET /
+[2015-11-06 14:06:32.807] [INFO] console - Express server listening on port 3000
+[2015-11-06 14:06:49.837] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 14:06:49.886] [WARN] normal - GET /
+[2015-11-06 14:06:49.932] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 14:06:49.932] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 14:06:50.134] [INFO] normal - GET /login
+[2015-11-06 14:06:53.366] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 14:06:53.366] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 14:06:53.606] [INFO] normal - POST /login
+[2015-11-06 14:06:53.613] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 14:06:53.613] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 14:06:53.711] [INFO] normal - GET /
+[2015-11-06 14:10:49.205] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 14:10:49.205] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 14:10:49.230] [INFO] normal - GET /
+[2015-11-06 14:44:36.198] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 14:44:36.566] [WARN] normal - GET /
+[2015-11-06 14:44:36.670] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 14:44:36.737] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 14:44:36.863] [INFO] normal - GET /login
+[2015-11-06 14:44:40.497] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 14:44:40.497] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 14:44:40.633] [INFO] normal - POST /login
+[2015-11-06 14:44:40.642] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 14:44:40.645] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 14:44:40.774] [INFO] normal - GET /
+[2015-11-06 15:01:42.639] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:01:42.687] [WARN] normal - GET /
+[2015-11-06 15:01:42.694] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:01:42.697] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:01:42.768] [INFO] normal - GET /login
+[2015-11-06 15:01:45.997] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:01:45.998] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 15:01:46.058] [INFO] normal - POST /login
+[2015-11-06 15:01:46.067] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:01:46.067] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:01:46.139] [INFO] normal - GET /
+[2015-11-06 15:09:35.648] [INFO] console - Express server listening on port 3000
+[2015-11-06 15:09:56.009] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:09:56.020] [WARN] normal - GET /
+[2015-11-06 15:09:56.022] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:09:56.023] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:09:56.061] [INFO] normal - GET /login
+[2015-11-06 15:09:59.712] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:09:59.712] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 15:09:59.743] [INFO] normal - POST /login
+[2015-11-06 15:09:59.752] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:09:59.753] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:09:59.766] [INFO] normal - GET /
+[2015-11-06 15:17:47.695] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:17:47.707] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:17:47.834] [INFO] normal - GET /
+[2015-11-06 15:18:04.455] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:18:04.455] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:18:04.468] [INFO] normal - GET /
+[2015-11-06 15:18:38.965] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:18:38.980] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:18:39.004] [INFO] normal - GET /
+[2015-11-06 15:19:38.017] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:19:38.018] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:19:38.038] [WARN] normal - GET /
+[2015-11-06 15:19:45.038] [INFO] console - Express server listening on port 3000
+[2015-11-06 15:19:45.159] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:19:45.173] [WARN] normal - GET /
+[2015-11-06 15:19:45.208] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:19:45.208] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:19:45.258] [INFO] normal - GET /login
+[2015-11-06 15:19:57.593] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:19:57.593] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 15:19:57.803] [INFO] normal - POST /login
+[2015-11-06 15:22:14.919] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:22:14.921] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:22:14.927] [INFO] normal - GET /login
+[2015-11-06 15:22:15.770] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:22:15.771] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:22:15.777] [WARN] normal - GET /login
+[2015-11-06 15:23:40.908] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:23:40.909] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:23:40.911] [INFO] normal - GET /login
+[2015-11-06 15:23:45.013] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:23:45.013] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 15:23:45.058] [INFO] normal - POST /login
+[2015-11-06 15:23:45.385] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:23:45.385] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:23:45.402] [INFO] normal - GET /
+[2015-11-06 15:23:48.328] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:23:48.329] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:23:48.338] [WARN] normal - GET /
+[2015-11-06 15:23:52.856] [INFO] console - Express server listening on port 3000
+[2015-11-06 15:24:16.504] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:24:16.513] [WARN] normal - GET /
+[2015-11-06 15:24:16.521] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:24:16.522] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:24:16.530] [INFO] normal - GET /login
+[2015-11-06 15:24:33.892] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:24:33.893] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:24:33.895] [INFO] normal - GET /login
+[2015-11-06 15:24:38.102] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:24:38.102] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 15:24:38.222] [INFO] normal - POST /login
+[2015-11-06 15:24:38.461] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:24:38.461] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:24:38.480] [INFO] normal - GET /
+[2015-11-06 15:25:08.304] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:25:08.304] [INFO] dev-logger: - controllers/create.js
+[2015-11-06 15:25:08.330] [INFO] normal - GET /create
+[2015-11-06 15:25:40.125] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:25:40.126] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:25:40.160] [WARN] normal - GET /
+[2015-11-06 15:26:11.087] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:26:11.087] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:26:11.117] [INFO] normal - GET /
+[2015-11-06 15:26:34.077] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:26:34.077] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:26:34.084] [INFO] normal - GET /
+[2015-11-06 15:27:01.713] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:27:01.714] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:27:01.738] [WARN] normal - GET /
+[2015-11-06 15:27:02.568] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:27:02.568] [INFO] dev-logger: - controllers/create.js
+[2015-11-06 15:27:02.571] [WARN] normal - GET /create
+[2015-11-06 15:27:07.280] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:27:07.485] [INFO] normal - POST /upload
+[2015-11-06 15:27:09.198] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:27:09.345] [INFO] normal - POST /create
+[2015-11-06 15:27:12.110] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:27:12.110] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:27:12.115] [INFO] normal - GET /
+[2015-11-06 15:28:18.343] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:28:18.343] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:28:18.351] [WARN] normal - GET /
+[2015-11-06 15:28:21.728] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:28:21.729] [INFO] dev-logger: - controllers/create.js
+[2015-11-06 15:28:21.730] [INFO] normal - GET /create
+[2015-11-06 15:30:32.331] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:30:32.331] [INFO] dev-logger: - controllers/create.js
+[2015-11-06 15:30:32.334] [INFO] normal - GET /create
+[2015-11-06 15:30:37.225] [INFO] console - Express server listening on port 3000
+[2015-11-06 15:30:38.299] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:30:38.308] [WARN] normal - GET /create
+[2015-11-06 15:30:38.317] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:30:38.317] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:30:38.326] [INFO] normal - GET /login
+[2015-11-06 15:30:41.857] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:30:41.857] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 15:30:41.954] [INFO] normal - POST /login
+[2015-11-06 15:30:42.324] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:30:42.324] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:30:42.340] [WARN] normal - GET /
+[2015-11-06 15:30:44.168] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:30:44.169] [INFO] dev-logger: - controllers/create.js
+[2015-11-06 15:30:44.171] [INFO] normal - GET /create
+[2015-11-06 15:31:00.429] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:31:00.646] [INFO] normal - POST /upload
+[2015-11-06 15:31:01.839] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:31:01.943] [INFO] normal - POST /create
+[2015-11-06 15:31:04.487] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:31:04.488] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:31:04.493] [INFO] normal - GET /
+[2015-11-06 15:31:59.284] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:31:59.284] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:31:59.293] [INFO] normal - GET /
+[2015-11-06 15:32:05.342] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:32:05.342] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:32:05.350] [WARN] normal - GET /
+[2015-11-06 15:32:23.761] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:32:23.762] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:32:23.779] [WARN] normal - GET /
+[2015-11-06 15:35:35.118] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:35:35.118] [INFO] dev-logger: - controllers/create.js
+[2015-11-06 15:35:35.121] [INFO] normal - GET /create
+[2015-11-06 15:35:39.515] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:35:39.873] [INFO] normal - POST /upload
+[2015-11-06 15:35:42.428] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:35:42.627] [INFO] normal - POST /upload
+[2015-11-06 15:35:44.811] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:35:44.897] [INFO] normal - POST /create
+[2015-11-06 15:41:29.230] [INFO] console - Express server listening on port 3000
+[2015-11-06 15:41:33.639] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:41:33.650] [WARN] normal - GET /create
+[2015-11-06 15:41:33.656] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:41:33.656] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-06 15:41:33.665] [INFO] normal - GET /login
+[2015-11-06 15:41:37.191] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-06 15:41:37.192] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-06 15:41:37.299] [INFO] normal - POST /login
+[2015-11-06 15:41:37.674] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:41:37.675] [INFO] dev-logger: - controllers/index.js
+[2015-11-06 15:41:37.694] [INFO] normal - GET /
+[2015-11-06 15:41:38.710] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:41:38.711] [INFO] dev-logger: - controllers/create.js
+[2015-11-06 15:41:38.712] [INFO] normal - GET /create
+[2015-11-06 15:41:42.004] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:41:42.934] [INFO] normal - POST /upload
+[2015-11-06 15:41:43.760] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-06 15:41:43.805] [INFO] normal - POST /create

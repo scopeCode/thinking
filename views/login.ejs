@@ -35,11 +35,13 @@
     <div class="form-group row">
       <div class="col-md-11">
         <button class="btn btn-lg btn-primary" type="button" id="btnLogin" style="width: 120px;">登录</button>
-        <a href="#" class="btn btn-lg btn-success" style="width: 120px;">注册</a>
+          <!--
+          <a href="#" class="btn btn-lg btn-success" style="width: 120px;">注册</a>
+          -->
       </div>
     </div>
   </form>
-
+  <div id="divLoad" style="display:none;"><div class="load"><i></i>请稍候...</div><div class="modal-backdrop fade in"></div></div>
 </div>
 
 <div class="footer text-muted" style="text-align: center;">
@@ -56,26 +58,41 @@
   $(document).ready(function(){
 
     $("#btnLogin").on("click",function(){
-      var uName = $("#UserName").val();
-      var uPwd  = $("#Password").val();
+      var uName = $.trim($("#UserName").val());
+      var uPwd  = $.trim($("#Password").val());
+
+      if(uName == ""){
+        message.msg("登录不可为空.");
+        return false;
+      }
+      if(uPwd == ""){
+        message.msg("密码不可为空.");
+        return false;
+      }
 
       var data = "userName="+uName+"&userPwd="+uPwd;
-
-      console.log(data);
       var host = 'http://'+window.location.host;
+
+      $("#btnLogin").addClass("disabled").html("登录中...");
       $.ajax({
         url:host+'/login',
         type:'POST',
         data:data,
         success:function(data,status){
           if(data.result==1 && status == 'success'){
-              location.href=host;
+              $("#btnLogin").removeClass("disabled").html("登录");
+              message.msg("登录成功.");
+              window.setTimeout(function(){
+                location.href=host;
+              }, 200);
           }else{
-              alert(data.msg);
+            message.msg(data.msg);
+            $("#btnLogin").removeClass("disabled").html("登录");
           }
         },
         error:function(res){
-             alert(res);
+          message.msg(res);
+          $("#btnLogin").removeClass("disabled").html("登录");
         }
       });
     });

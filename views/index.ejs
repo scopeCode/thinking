@@ -14,33 +14,39 @@
     <div class="container">
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
         <ul class="nav navbar-nav" style="float: right;" >
-          <li class="active"><a href="/create">CREATE</a></li>
+          <li class="active"><a href="/create">发布新文章</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section id="cd-timeline" class="cd-container">
-
-
-    <% for(var i=0; i<data.length; i++) { %>
-      <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-picture">
-          <img src="/images/cd-icon-picture.svg" alt="Picture">
-        </div>
-        <div class="cd-timeline-content">
-          <h2><%=data[i].title %></h2>
-          <p>
-            <%=data[i].desc %>
-            <img src="http://7xjik2.com1.z0.glb.clouddn.com/<%=data[i].img %>" alt="Picture">
-          </p>
-          <a href="javascript:;;" class="cd-read-more" target="_blank">阅读全文</a>
-          <span class="cd-date"><%=data[i].created %></span>
-        </div>
+    <% if(data.length > 0) {%>
+      <section id="cd-timeline" class="cd-container">
+        <% for(var i=0; i<data.length; i++) { %>
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+              <img src="/images/cd-icon-picture.svg" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+              <h2><%=data[i].title %></h2>
+              <p>
+                <%=data[i].desc %>
+                <img src="http://7xjik2.com1.z0.glb.clouddn.com/<%=data[i].img %>" alt="Picture">
+              </p>
+              <!--
+                <a href="javascript:;;" class="cd-read-more" target="_blank">阅读全文</a>
+              -->
+              <span class="cd-date"><%=data[i].created %></span>
+            </div>
+          </div>
+        <% } %>
+      </section>
+    <% } else {%>
+      <div id="divProductDetailEmpty" class="empty">
+        <div class="ic-empty"></div>
+        <p class="text-center">暂无记录</p>
       </div>
-
-    <% } %>
-
+    <%}%>
 
     <!--
        <div class="cd-timeline-block">
@@ -118,7 +124,7 @@
              </div>
            </div>
        -->
-</section>
+
 
   </body>
 </html>
