@@ -41,90 +41,124 @@
           </div>
         <% } %>
       </section>
-    <% } else {%>
-      <div id="divProductDetailEmpty" class="empty">
-        <div class="ic-empty"></div>
-        <p class="text-center">暂无记录</p>
-      </div>
-    <%}%>
 
-    <!--
-       <div class="cd-timeline-block">
-         <div class="cd-timeline-img cd-picture">
-           <img src="/images/cd-icon-picture.svg" alt="Picture">
-         </div>
+      <div style="text-align: center;display: none;" id="divLoadMsg">加载中.......</div>
+      <div style="height: 20px;" ></div>
+      <% } else {%>
+        <div id="divProductDetailEmpty" class="empty">
+          <div class="ic-empty"></div>
+          <p class="text-center">暂无记录</p>
+          <a class="btn btn-primary btn-lg" href="/">刷新本页</a>
+        </div>
+      <%}%>
+  <input id="currentPage" type="hidden" value="0" />
+  <script type="text/javascript">
 
-         <div class="cd-timeline-content">
-           <h2>宝贝1天</h2>
-           <p>
-               我家大宝出生的第一天，第一次呼吸这个世界的空气
-             <img src="http://7xjik2.com1.z0.glb.clouddn.com/IMG_0737.JPG" alt="Picture">
-           </p>
-           <a href="javascript:;;" class="cd-read-more" target="_blank">阅读全文</a>
-           <span class="cd-date">2015-01-06</span>
-         </div>
-       </div>
-       <div class="cd-timeline-block">
-         <div class="cd-timeline-img cd-movie">
-           <img src="/images/cd-icon-movie.svg" alt="Movie">
-         </div>
+    $(document).ready(function(){
 
-         <div class="cd-timeline-content">
-           <h2>大宝开始探索新的区域</h2>
-           <p>
-             <video width="320" height="240" controls="controls">
-               <source src="http://7xjik2.com1.z0.glb.clouddn.com/video_20150524_164223.mp4" type="video/3gpp">
-               Your browser does not support the video tag.
-             </video>
-             <video width="320" height="240" controls="controls">
-               <source src=""http://7xjik2.com1.z0.glb.clouddn.com/video_20150524_164223.mp4" type="video/mp4">
-               Your browser does not support the video tag.
-             </video>
-           </p>
-           <a href="javascript:;;" class="cd-read-more" target="_blank">阅读全文</a>
-           <span class="cd-date">2014-12-25</span>
-         </div>
-       </div>
+      //滚动条在Y轴上的滚动距离
+      function getScrollTop(){
+        var scrollTop = 0, bodyScrollTop = 0, documentScrollTop = 0;
+        if(document.body){bodyScrollTop = document.body.scrollTop;}
+        if(document.documentElement){
+          documentScrollTop = document.documentElement.scrollTop;
+        }scrollTop = (bodyScrollTop - documentScrollTop > 0) ? bodyScrollTop : documentScrollTop;return scrollTop;
+      };
+      //文档的总高度
+      function getScrollHeight(){
+        var scrollHeight = 0, bodyScrollHeight = 0, documentScrollHeight = 0;
+        if(document.body){
+          bodyScrollHeight = document.body.scrollHeight;
+        }
+        if(document.documentElement){
+          documentScrollHeight = document.documentElement.scrollHeight;
+        }
+        scrollHeight = (bodyScrollHeight - documentScrollHeight > 0) ? bodyScrollHeight : documentScrollHeight;
+        return scrollHeight;
+      };
+      //浏览器视口的高度
+      function getWindowHeight(){
+        var windowHeight = 0;
+        if(document.compatMode == "CSS1Compat"){
+          windowHeight = document.documentElement.clientHeight;
+        }else{
+          windowHeight = document.body.clientHeight;
+        }
+        return windowHeight;
+      };
 
-         <!--
-           <div class="cd-timeline-block">
-             <div class="cd-timeline-img cd-picture">
-               <img src="/images/cd-icon-picture.svg" alt="Picture">
-             </div>
+      window.onscroll = function(){
+        if(getScrollTop() + getWindowHeight() == getScrollHeight()){
+          if(!$("#divLoadMsg").is(":visible")){
+            $("#divLoadMsg").show();
+            query();
+          }
+        }
+      };
 
-             <div class="cd-timeline-content">
-               <h2>PHP操作Session和Cookie</h2>
-               <p>我们跟踪用户信息时需要用到Session和Cookie，比如用户登录验证、记录用户浏览历史，存储购物车数据，限制用户会话有效时间等。今天我们来了解下PHP是如何操作Session和Cookie的。</p>
-               <a href="http://www.helloweba.com/view-blog-283.html" class="cd-read-more" target="_blank">阅读全文</a>
-               <span class="cd-date">2014-12-20</span>
-             </div>
-           </div>
-           <div class="cd-timeline-block">
-             <div class="cd-timeline-img cd-movie">
-               <img src="/images/cd-icon-movie.svg" alt="Movie">
-             </div>
+      function query(){
+        var currentPage = parseInt($("#currentPage").val()) + 1;
+        var data = "offset="+currentPage+"&limit=2";
+        var host = 'http://'+window.location.host;
+        $.ajax({
+          url:host+'/article/getAll',
+          type:'POST',
+          data:data,
+          success:function(data,status){
+            if(data.result==1 && status == 'success'){
+                var len = data.data.length;
+                var a = [];
+                for(var i=0;i<len;i++){
+                  var item = data.data[i];
+                  var title = item.title;
+                  var img   = item.img;
+                  var type  = item.type;
+                  var created = item.created;
 
-             <div class="cd-timeline-content">
-               <h2>jQuery数字加减插件</h2>
-               <p>我们在网上购物提交订单时，在网页上一般会有一个选择数量的控件，要求买家选择购买商品的件数，开发者会把该控件做成可以通过点击实现加减等微调操作，当然也可以直接输入数字件数。本文将介绍常见的几种使用spinner数字微调器来实现数字加减的功能的方法。</p>
-               <a href="http://www.helloweba.com/view-blog-282.html" class="cd-read-more" target="_blank">阅读全文</a>
-               <span class="cd-date">2014-12-14</span>
-             </div>
-           </div>
-           <div class="cd-timeline-block">
-             <div class="cd-timeline-img cd-movie">
-               <img src="/images/cd-icon-location.svg" alt="Location">
-             </div>
+                  a.push(format(temp,{
+                    title:title,img:img,created:created
+                  }));
+                }
+                $("#cd-timeline").append(a.join(''));
+                $("#currentPage").val(currentPage);
+                $("#divLoadMsg").hide();
+            }else{
+              message.msg(data.msg);
+            }
+          },
+          error:function(res){
+            message.msg(res);
+          }
+        });
+      };
+      var temp = '<div class="cd-timeline-block">'+
+                      '<div class="cd-timeline-img cd-picture"><img src="/images/cd-icon-picture.svg" alt="Picture"></div>'+
+                          '<div class="cd-timeline-content">'+
+                              '<h2>#{title}</h2>'+
+                              '<p><img src="http://7xjik2.com1.z0.glb.clouddn.com/#{img}" alt="Picture"><p>'+
+                              '<span class="cd-date">#{created}</span>'+
+                      '</div>'+
+                '</div>';
 
-             <div class="cd-timeline-content">
-               <h2>收集整理的非常有用的PHP函数</h2>
-               <p>项目中经常会需要一些让人头疼的函数，作为开发者应该整理一个自己的函数库，在需要之时复制过来即可。本文作者收集整理数十个PHP项目中常用的函数，保证能正常运行，你只要复制粘贴到你项目中即可。</p>
-               <a href="http://www.helloweba.com/view-blog-281.html" class="cd-read-more" target="_blank">阅读全文</a>
-               <span class="cd-date">2014-12-05</span>
-             </div>
-           </div>
-       -->
+  function format(c, a) {
+    c = String(c);
+    var b = Array.prototype.slice.call(arguments, 1),
+            d = Object.prototype.toString;
+    if (b.length) {
+      b = b.length == 1 ? (a !== null && (/\[object Array\]|\[object Object\]/.test(d.call(a))) ? a : b) : b;
+      return c.replace(/#\{(.+?)\}/g, function(f, h) {
+        var g = b[h];
+        if ("[object Function]" == d.call(g)) {
+          g = g(h);
+        }
+        return ("undefined" == typeof g ? "" : g);
+      });
+    }
+    return c;
+  };
 
 
+    });
+  </script>
   </body>
 </html>

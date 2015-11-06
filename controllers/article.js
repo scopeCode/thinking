@@ -43,3 +43,26 @@ exports.insert = function (req, res, next) {
         next(ex);
     }
 };
+
+/**
+ * show getAll post
+ * @param  {object}   req  the request object
+ * @param  {object}   res  the response object
+ * @param  {Function} next the next handler
+ * @return {null}
+ */
+exports.getAll = function (req, res, next) {
+    try{
+        var offset = req.body.offset|| 0,limit = req.body.limit || 10;
+
+        article.getAll((offset*limit),limit,function(err,a){
+            if(err){
+                res.send(200,common.error(err.message));
+            }else{
+                res.send(200,common.success(a));
+            }
+        })
+    }catch(ex){
+        next(ex);
+    }
+};

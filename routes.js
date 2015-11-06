@@ -17,8 +17,11 @@ module.exports = function (app) {
 
     app.route("/").all(login.authentication).get(index.show);
     app.route("/login").all(login.notAuthentication).get(login.show).post(login.signIn);
-    app.route("/create").all(login.authentication).get(article.show).post(article.insert);
     app.route("/upload").all(login.authentication).post(upload.upload);
+
+    app.route("/create").all(login.authentication).get(article.show).post(article.insert);
+    app.route("/article/getAll").all(login.authentication).post(article.getAll);
+
 
     //404错误页面的处理
     app.use(function(req, res, next) {
