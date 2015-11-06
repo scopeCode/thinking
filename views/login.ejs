@@ -5,24 +5,19 @@
   <title>用户登录</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/stylesheets/bootstrap.css" rel="stylesheet">
-  <link href="/stylesheets/base-main.css" rel="stylesheet">
   <script src="/javascripts/jquery-1.10.2.js"></script>
   <script src="/javascripts/bootstrap.js"></script>
 </head>
 <body>
-<header class="navbar navbar-default navbar-fixed-top" role="banner" style="height:62px"></header>
+<nav  class="navbar navbar-default navbar-fixed-top" role="banner" style="text-align: center;color:white;">
+  <h2>用户登录</h2>
+</nav>
 
-<div class="container" style="padding-top: 15px; ">
-  <form class="form-horizontal" style="max-width: 350px; min-height: 550px; margin: 0 auto;" action="http://kf.facecore.cn/Account/Login" method="POST">
-    <div class="form-group row">
-      <div class="col-md-offset-2 col-md-10">
-        <h2>用户登录</h2>
-      </div>
-    </div>
-
+<div class="container" style="padding-top: 15px; margin-top: 70px;">
+  <form class="form-horizontal" style="max-width: 350px; min-height: 550px; margin: 0 auto;">
     <div class="form-group row">
       <div class="col-md-12">
-        <input id="UserName" name="UserName" value="admin@kfcode.cn" type="email" maxlength="79" min="5" class="form-control input-lg" placeholder="邮箱地址" required="" autofocus="">
+        <input id="UserName" name="UserName" value="" type="email" maxlength="79" min="5" class="form-control input-lg" placeholder="登录邮箱" required="" autofocus="">
       </div>
     </div>
 
@@ -33,8 +28,8 @@
     </div>
 
     <div class="form-group row">
-      <div class="col-md-11">
-        <button class="btn btn-lg btn-primary" type="button" id="btnLogin" style="width: 120px;">登录</button>
+      <div class="col-md-12">
+        <button class="btn btn-lg btn-primary btn-block" type="button" id="btnLogin" >登录</button>
           <!--
           <a href="#" class="btn btn-lg btn-success" style="width: 120px;">注册</a>
           -->
@@ -48,8 +43,8 @@
   <p>
     <a href="#" class="text-muted" title="关于网站">关于网站</a> |<a href="#" class="text-muted" title="联系我们">联系我们</a>
   </p>
-  <p>
-    Copyright © 2015-2015 kfcode.cn All Rights Reserved. Kfcode 版权所有
+  <p>kfcode.cn  Copyright © 2015-
+    <script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script>. All rights reserved. 辽ICP备09016214号-4
   </p>
 </div>
 
@@ -62,11 +57,11 @@
       var uPwd  = $.trim($("#Password").val());
 
       if(uName == ""){
-        message.msg("登录不可为空.");
+        message.msg("登录邮箱不可为空.");
         return false;
       }
       if(uPwd == ""){
-        message.msg("密码不可为空.");
+        message.msg("登录密码不可为空.");
         return false;
       }
 
@@ -74,6 +69,7 @@
       var host = 'http://'+window.location.host;
 
       $("#btnLogin").addClass("disabled").html("登录中...");
+      $("#divLoad").show();
       $.ajax({
         url:host+'/login',
         type:'POST',
@@ -81,18 +77,20 @@
         success:function(data,status){
           if(data.result==1 && status == 'success'){
               $("#btnLogin").removeClass("disabled").html("登录");
-              message.msg("登录成功.");
+              $("#divLoad").hide();
               window.setTimeout(function(){
                 location.href=host;
               }, 200);
           }else{
             message.msg(data.msg);
             $("#btnLogin").removeClass("disabled").html("登录");
+            $("#divLoad").hide();
           }
         },
         error:function(res){
           message.msg(res);
           $("#btnLogin").removeClass("disabled").html("登录");
+          $("#divLoad").hide();
         }
       });
     });

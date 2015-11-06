@@ -42,7 +42,6 @@
         <% } %>
       </section>
 
-      <div style="text-align: center;display: none;" id="divLoadMsg">加载中.......</div>
       <div style="height: 20px;" ></div>
       <% } else {%>
         <div id="divProductDetailEmpty" class="empty">
@@ -51,6 +50,7 @@
           <a class="btn btn-primary btn-lg" href="/">刷新本页</a>
         </div>
       <%}%>
+  <div id="divLoad" style="display:none;"><div class="load"><i></i>请稍候...</div><div class="modal-backdrop fade in"></div></div>
   <input id="currentPage" type="hidden" value="0" />
   <script type="text/javascript">
 
@@ -90,7 +90,7 @@
       window.onscroll = function(){
         if(getScrollTop() + getWindowHeight() == getScrollHeight()){
           if(!$("#divLoadMsg").is(":visible")){
-            $("#divLoadMsg").show();
+            $("#divLoad").show();
             query();
           }
         }
@@ -121,13 +121,15 @@
                 }
                 $("#cd-timeline").append(a.join(''));
                 $("#currentPage").val(currentPage);
-                $("#divLoadMsg").hide();
+                $("#divLoad").hide();
             }else{
               message.msg(data.msg);
+              $("#divLoad").hide();
             }
           },
           error:function(res){
             message.msg(res);
+            $("#divLoad").hide();
           }
         });
       };
