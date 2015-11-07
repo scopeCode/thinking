@@ -79,3 +79,5 @@ exports.getAll = function(offset,limit,callback){
 exports.init = function(){
     Article.sync({force: true}).then(function(){});
 };
+
+//this.init();
