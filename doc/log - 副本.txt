@@ -11,3 +11,17 @@ global.logger = logger.logger("global");
 
 
 Project.findAll({order: 'id DESC'})
+
+
+
+EJS 的应用
+<% include header.html %>
+
+<h1>Users</h1>
+<ul id="users">
+  <% users.forEach(function(user){ %>
+    <li><%= user.name %> &lt;<%= user.email %>&gt;</li>
+  <% }) %>
+</ul>
+
+<% include footer.html %>
