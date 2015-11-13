@@ -13,7 +13,8 @@ var User = mysqlCient.sequelize.define('user',
             userPwd:{
                 type:mysqlCient.Sequelize.STRING,
                 field:"userPwd"
-            }
+            },
+
         },
         {
             freezeTableName: true,

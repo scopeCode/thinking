@@ -1,0 +1,990 @@
+[2015-11-13 10:48:04.873] [INFO] console - Express server listening on port 80
+[2015-11-13 10:48:08.307] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 10:48:08.317] [WARN] normal - GET /
+[2015-11-13 10:48:08.329] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 10:48:08.329] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 10:48:08.386] [INFO] normal - GET /login
+[2015-11-13 10:48:20.876] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 10:48:20.876] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-13 10:48:21.487] [INFO] normal - POST /login
+[2015-11-13 10:48:21.697] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 10:48:21.698] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 10:48:21.744] [INFO] normal - GET /
+[2015-11-13 10:50:08.421] [INFO] console - Express server listening on port 80
+[2015-11-13 10:50:15.433] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 10:50:15.438] [WARN] normal - GET /
+[2015-11-13 10:50:15.442] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 10:50:15.442] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 10:50:15.453] [INFO] normal - GET /login
+[2015-11-13 10:50:26.796] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 10:50:26.796] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-13 10:50:26.946] [INFO] normal - POST /login
+[2015-11-13 10:50:27.155] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 10:50:27.155] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 10:50:27.160] [INFO] normal - GET /
+[2015-11-13 10:50:33.147] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 10:50:33.147] [INFO] dev-logger: - controllers/create.js
+[2015-11-13 10:50:33.175] [INFO] normal - GET /create
+[2015-11-13 10:59:17.610] [INFO] console - Express server listening on port 80
+[2015-11-13 10:59:22.953] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 10:59:22.965] [WARN] normal - GET /create
+[2015-11-13 10:59:22.970] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 10:59:22.971] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 10:59:22.980] [INFO] normal - GET /login
+[2015-11-13 10:59:33.867] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 10:59:33.867] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-13 10:59:33.974] [INFO] normal - POST /login
+[2015-11-13 10:59:34.183] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 10:59:34.183] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 10:59:34.194] [INFO] normal - GET /
+[2015-11-13 11:02:16.362] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:02:16.383] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:02:16.591] [INFO] normal - GET /
+[2015-11-13 11:03:41.542] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:03:41.542] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:03:41.577] [INFO] normal - GET /
+[2015-11-13 11:04:38.986] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:04:38.987] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:04:39.081] [INFO] normal - GET /
+[2015-11-13 11:05:45.786] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:05:45.787] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:05:45.806] [WARN] normal - GET /
+[2015-11-13 11:09:13.014] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:09:13.014] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:09:13.029] [INFO] normal - GET /
+[2015-11-13 11:10:09.025] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:10:09.029] [WARN] normal - GET /
+[2015-11-13 11:10:09.035] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:10:09.035] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:10:09.038] [INFO] normal - GET /login
+[2015-11-13 11:10:19.003] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:10:19.004] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-13 11:10:19.014] [INFO] normal - POST /login
+[2015-11-13 11:10:19.266] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:10:19.267] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:10:19.274] [INFO] normal - GET /
+[2015-11-13 11:10:27.434] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:10:27.440] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:10:27.446] [INFO] normal - POST /article/getAll
+[2015-11-13 11:10:27.449] [INFO] normal - POST /article/getAll
+[2015-11-13 11:11:25.864] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:11:25.868] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:11:25.889] [INFO] normal - GET /
+[2015-11-13 11:13:13.584] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:13:13.588] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:13:13.619] [WARN] normal - GET /
+[2015-11-13 11:13:14.099] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:13:14.101] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:13:14.107] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:13:14.109] [WARN] normal - GET /404
+[2015-11-13 11:13:14.112] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:13:14.112] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:13:14.118] [INFO] normal - GET /
+[2015-11-13 11:13:15.907] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:13:15.908] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:13:15.919] [WARN] normal - GET /
+[2015-11-13 11:13:16.761] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:13:16.763] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:13:16.767] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:13:16.770] [WARN] normal - GET /404
+[2015-11-13 11:13:16.771] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:13:16.772] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:13:16.787] [INFO] normal - GET /
+[2015-11-13 11:14:28.734] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:14:28.739] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:14:28.749] [INFO] normal - GET /
+[2015-11-13 11:14:29.234] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:14:29.235] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:14:29.236] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:14:29.237] [WARN] normal - GET /404
+[2015-11-13 11:14:29.240] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:14:29.240] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:14:29.246] [INFO] normal - GET /
+[2015-11-13 11:14:49.648] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:14:49.648] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:14:49.665] [INFO] normal - GET /
+[2015-11-13 11:14:50.102] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:14:50.103] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:14:50.104] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:14:50.105] [WARN] normal - GET /404
+[2015-11-13 11:14:50.106] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:14:50.107] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:14:50.116] [INFO] normal - GET /
+[2015-11-13 11:14:51.003] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:14:51.004] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:14:51.009] [WARN] normal - GET /
+[2015-11-13 11:14:51.527] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:14:51.528] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:14:51.530] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:14:51.531] [WARN] normal - GET /404
+[2015-11-13 11:14:51.536] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:14:51.536] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:14:51.541] [INFO] normal - GET /
+[2015-11-13 11:14:52.305] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:14:52.314] [INFO] normal - POST /article/getAll
+[2015-11-13 11:16:35.081] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:16:35.081] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:16:35.136] [INFO] normal - GET /
+[2015-11-13 11:16:35.624] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:16:35.625] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:16:35.630] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:16:35.631] [WARN] normal - GET /404
+[2015-11-13 11:16:35.633] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:16:35.633] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:16:35.655] [INFO] normal - GET /
+[2015-11-13 11:18:11.418] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:18:11.418] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:18:11.427] [INFO] normal - GET /
+[2015-11-13 11:18:11.911] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:18:11.915] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:18:11.919] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:18:11.920] [WARN] normal - GET /404
+[2015-11-13 11:18:11.927] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:18:11.928] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:18:11.931] [INFO] normal - GET /
+[2015-11-13 11:20:04.456] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:20:04.456] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:20:04.465] [INFO] normal - GET /
+[2015-11-13 11:20:05.153] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:20:05.154] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:20:05.156] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:20:05.157] [WARN] normal - GET /404
+[2015-11-13 11:20:05.160] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:20:05.160] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:20:05.164] [INFO] normal - GET /
+[2015-11-13 11:20:05.992] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:20:05.998] [INFO] normal - POST /article/getAll
+[2015-11-13 11:20:06.026] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:20:06.030] [INFO] normal - POST /article/getAll
+[2015-11-13 11:20:06.040] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:20:06.051] [INFO] normal - POST /article/getAll
+[2015-11-13 11:21:04.615] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:21:04.616] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:21:04.631] [INFO] normal - GET /
+[2015-11-13 11:21:05.099] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:21:05.100] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:21:05.102] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:21:05.104] [WARN] normal - GET /404
+[2015-11-13 11:21:05.106] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:21:05.107] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:21:05.114] [INFO] normal - GET /
+[2015-11-13 11:21:06.530] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:21:06.542] [INFO] normal - POST /article/getAll
+[2015-11-13 11:22:20.396] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:22:20.398] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:22:20.420] [INFO] normal - GET /
+[2015-11-13 11:22:22.203] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:22:22.203] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:22:22.218] [WARN] normal - GET /
+[2015-11-13 11:22:22.760] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:22:22.760] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:22:22.778] [WARN] normal - GET /
+[2015-11-13 11:22:23.440] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:22:23.440] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:22:23.446] [WARN] normal - GET /
+[2015-11-13 11:22:23.811] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:22:23.811] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:22:23.823] [WARN] normal - GET /
+[2015-11-13 11:23:06.219] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:23:06.219] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:23:06.230] [INFO] normal - GET /
+[2015-11-13 11:23:13.042] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:23:13.048] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:23:13.056] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:23:13.059] [WARN] normal - GET /404
+[2015-11-13 11:23:13.061] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:23:13.063] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:23:13.071] [INFO] normal - GET /
+[2015-11-13 11:23:35.603] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:23:35.606] [WARN] normal - GET /
+[2015-11-13 11:23:35.617] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:23:35.617] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:23:35.620] [INFO] normal - GET /login
+[2015-11-13 11:23:35.920] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:23:35.924] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:23:35.926] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:23:35.927] [INFO] dev-logger: - controllers/404.js
+[2015-11-13 11:23:35.963] [INFO] normal - GET /404
+[2015-11-13 11:23:36.951] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:23:36.951] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:23:36.953] [WARN] normal - GET /login
+[2015-11-13 11:23:37.247] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:23:37.250] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:23:37.252] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:23:37.253] [INFO] dev-logger: - controllers/404.js
+[2015-11-13 11:23:37.255] [INFO] normal - GET /404
+[2015-11-13 11:23:46.265] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:23:46.265] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-13 11:23:46.273] [INFO] normal - POST /login
+[2015-11-13 11:23:46.519] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:23:46.519] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:23:46.524] [INFO] normal - GET /
+[2015-11-13 11:23:46.862] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:23:46.871] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:23:46.889] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:23:46.890] [WARN] normal - GET /404
+[2015-11-13 11:23:46.892] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:23:46.892] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:23:46.900] [INFO] normal - GET /
+[2015-11-13 11:24:12.583] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:24:12.583] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:24:12.591] [INFO] normal - GET /
+[2015-11-13 11:24:13.089] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:24:13.090] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:24:13.094] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:24:13.097] [WARN] normal - GET /404
+[2015-11-13 11:24:13.099] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:24:13.101] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:24:13.116] [INFO] normal - GET /
+[2015-11-13 11:24:47.013] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:24:47.019] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:24:47.036] [INFO] normal - GET /
+[2015-11-13 11:24:47.483] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:24:47.493] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:24:47.496] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:24:47.499] [WARN] normal - GET /404
+[2015-11-13 11:24:47.503] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:24:47.503] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:24:47.509] [INFO] normal - GET /
+[2015-11-13 11:24:48.290] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:24:48.290] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:24:48.298] [WARN] normal - GET /
+[2015-11-13 11:24:48.772] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:24:48.777] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:24:48.780] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:24:48.782] [WARN] normal - GET /404
+[2015-11-13 11:24:48.783] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:24:48.784] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:24:48.790] [INFO] normal - GET /
+[2015-11-13 11:25:15.303] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:25:15.303] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:25:15.319] [INFO] normal - GET /
+[2015-11-13 11:25:16.679] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:25:16.679] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:25:16.702] [WARN] normal - GET /
+[2015-11-13 11:25:36.966] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:25:36.971] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:25:36.990] [INFO] normal - GET /
+[2015-11-13 11:27:51.664] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:27:51.664] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:27:51.684] [INFO] normal - GET /
+[2015-11-13 11:27:56.558] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:27:56.558] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:27:56.562] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:27:56.564] [WARN] normal - GET /404
+[2015-11-13 11:27:56.571] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:27:56.571] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:27:56.575] [INFO] normal - GET /
+[2015-11-13 11:28:35.417] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:28:35.417] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:28:35.430] [INFO] normal - GET /
+[2015-11-13 11:28:35.984] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:28:35.993] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:28:35.996] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:28:35.998] [WARN] normal - GET /404
+[2015-11-13 11:28:36.000] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:28:36.000] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:28:36.006] [INFO] normal - GET /
+[2015-11-13 11:29:27.041] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:29:27.041] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:29:27.048] [INFO] normal - GET /
+[2015-11-13 11:29:27.630] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:29:27.634] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:29:27.636] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:29:27.637] [WARN] normal - GET /404
+[2015-11-13 11:29:27.638] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:29:27.638] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:29:27.642] [INFO] normal - GET /
+[2015-11-13 11:29:56.732] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:29:56.732] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:29:56.747] [INFO] normal - GET /
+[2015-11-13 11:29:57.317] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:29:57.318] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:29:57.325] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:29:57.326] [WARN] normal - GET /404
+[2015-11-13 11:29:57.328] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:29:57.328] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:29:57.332] [INFO] normal - GET /
+[2015-11-13 11:30:43.826] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:30:43.827] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:30:43.861] [WARN] normal - GET /
+[2015-11-13 11:30:44.286] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:30:44.287] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:30:44.289] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:30:44.289] [WARN] normal - GET /404
+[2015-11-13 11:30:44.291] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:30:44.291] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:30:44.298] [INFO] normal - GET /
+[2015-11-13 11:32:14.819] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:32:14.819] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:32:14.833] [INFO] normal - GET /
+[2015-11-13 11:32:15.273] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:32:15.273] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:32:15.275] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:32:15.275] [WARN] normal - GET /404
+[2015-11-13 11:32:15.277] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:32:15.277] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:32:15.283] [INFO] normal - GET /
+[2015-11-13 11:32:29.607] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:32:29.607] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:32:29.615] [INFO] normal - GET /
+[2015-11-13 11:32:30.077] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:32:30.078] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:32:30.080] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:32:30.081] [WARN] normal - GET /404
+[2015-11-13 11:32:30.084] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:32:30.084] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:32:30.087] [INFO] normal - GET /
+[2015-11-13 11:32:42.289] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:32:42.289] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:32:42.298] [INFO] normal - GET /
+[2015-11-13 11:32:42.801] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:32:42.802] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:32:42.803] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:32:42.804] [WARN] normal - GET /404
+[2015-11-13 11:32:42.806] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:32:42.806] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:32:42.810] [INFO] normal - GET /
+[2015-11-13 11:32:52.615] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:32:52.616] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:32:52.622] [INFO] normal - GET /
+[2015-11-13 11:32:53.034] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:32:53.035] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:32:53.041] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:32:53.043] [WARN] normal - GET /404
+[2015-11-13 11:32:53.044] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:32:53.044] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:32:53.049] [INFO] normal - GET /
+[2015-11-13 11:33:27.207] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:33:27.207] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:33:27.220] [WARN] normal - GET /
+[2015-11-13 11:33:27.643] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:33:27.644] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:33:27.649] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:33:27.656] [WARN] normal - GET /404
+[2015-11-13 11:33:27.660] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:33:27.660] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:33:27.662] [INFO] normal - GET /
+[2015-11-13 11:33:31.002] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:33:31.010] [INFO] normal - POST /article/getAll
+[2015-11-13 11:33:31.032] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:33:31.036] [INFO] normal - POST /article/getAll
+[2015-11-13 11:33:31.051] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:33:31.054] [INFO] normal - POST /article/getAll
+[2015-11-13 11:34:47.825] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:34:47.828] [WARN] normal - GET /
+[2015-11-13 11:34:47.832] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:34:47.832] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:34:47.833] [INFO] normal - GET /login
+[2015-11-13 11:34:49.065] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:34:49.066] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:34:49.069] [WARN] normal - GET /login
+[2015-11-13 11:34:49.222] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:34:49.222] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:34:49.223] [WARN] normal - GET /login
+[2015-11-13 11:34:53.347] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:34:53.348] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:34:53.354] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:34:53.354] [INFO] dev-logger: - controllers/404.js
+[2015-11-13 11:34:53.355] [INFO] normal - GET /404
+[2015-11-13 11:34:55.352] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:34:55.352] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:34:55.353] [WARN] normal - GET /login
+[2015-11-13 11:34:55.758] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:34:55.759] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:34:55.761] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:34:55.761] [INFO] dev-logger: - controllers/404.js
+[2015-11-13 11:34:55.762] [INFO] normal - GET /404
+[2015-11-13 11:35:51.262] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:51.262] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:51.266] [INFO] normal - GET /login
+[2015-11-13 11:35:52.326] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:52.327] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:52.332] [WARN] normal - GET /login
+[2015-11-13 11:35:52.845] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:52.846] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:52.847] [WARN] normal - GET /login
+[2015-11-13 11:35:53.046] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:53.046] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:53.048] [WARN] normal - GET /login
+[2015-11-13 11:35:53.224] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:53.224] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:53.228] [WARN] normal - GET /login
+[2015-11-13 11:35:53.395] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:53.395] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:53.396] [WARN] normal - GET /login
+[2015-11-13 11:35:53.578] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:53.578] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:53.579] [WARN] normal - GET /login
+[2015-11-13 11:35:53.754] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:53.754] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:53.758] [WARN] normal - GET /login
+[2015-11-13 11:35:53.930] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:53.931] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:53.937] [WARN] normal - GET /login
+[2015-11-13 11:35:54.105] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:54.105] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:54.107] [WARN] normal - GET /login
+[2015-11-13 11:35:54.308] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:35:54.308] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:35:54.310] [WARN] normal - GET /login
+[2015-11-13 11:36:05.248] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:36:05.249] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:36:05.256] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:36:05.256] [INFO] dev-logger: - controllers/404.js
+[2015-11-13 11:36:05.257] [INFO] normal - GET /404
+[2015-11-13 11:36:57.272] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:36:57.272] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-13 11:36:57.277] [INFO] normal - POST /login
+[2015-11-13 11:36:57.523] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:36:57.524] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:36:57.527] [INFO] normal - GET /
+[2015-11-13 11:36:57.812] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:36:57.813] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:36:57.815] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:36:57.816] [WARN] normal - GET /404
+[2015-11-13 11:36:57.817] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:36:57.817] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:36:57.821] [INFO] normal - GET /
+[2015-11-13 11:36:59.410] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:36:59.417] [INFO] normal - POST /article/getAll
+[2015-11-13 11:37:07.709] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:37:07.710] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:37:07.729] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:37:07.730] [WARN] normal - GET /404
+[2015-11-13 11:37:07.739] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:37:07.739] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:37:07.744] [INFO] normal - GET /
+[2015-11-13 11:41:00.152] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:41:00.152] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:41:00.163] [WARN] normal - GET /
+[2015-11-13 11:41:38.246] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:41:38.246] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:41:38.256] [INFO] normal - GET /
+[2015-11-13 11:42:10.726] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:42:10.726] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:42:10.735] [INFO] normal - GET /
+[2015-11-13 11:42:46.575] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:42:46.575] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:42:46.586] [INFO] normal - GET /
+[2015-11-13 11:42:53.086] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:42:53.086] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:42:53.095] [WARN] normal - GET /
+[2015-11-13 11:42:54.033] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:42:54.033] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:42:54.043] [WARN] normal - GET /
+[2015-11-13 11:42:54.301] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:42:54.301] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:42:54.310] [WARN] normal - GET /
+[2015-11-13 11:42:54.503] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:42:54.503] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:42:54.506] [WARN] normal - GET /
+[2015-11-13 11:42:54.678] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:42:54.678] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:42:54.680] [WARN] normal - GET /
+[2015-11-13 11:43:09.496] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:09.496] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:43:09.507] [INFO] normal - GET /
+[2015-11-13 11:43:45.970] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:45.971] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:43:45.986] [INFO] normal - GET /
+[2015-11-13 11:43:46.622] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:46.624] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:43:46.645] [WARN] normal - GET /
+[2015-11-13 11:43:48.711] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:48.711] [INFO] dev-logger: - controllers/create.js
+[2015-11-13 11:43:48.713] [INFO] normal - GET /create
+[2015-11-13 11:43:48.734] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:43:48.736] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:43:48.737] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:43:48.738] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:43:48.740] [WARN] normal - GET /stylesheets/bootstrap-theme.css
+[2015-11-13 11:43:48.740] [WARN] normal - GET /stylesheets/index.css
+[2015-11-13 11:43:48.740] [WARN] normal - GET /stylesheets/bootstrap-modal.css
+[2015-11-13 11:43:48.740] [WARN] normal - GET /stylesheets/bootstrap-modal-bs3patch.css
+[2015-11-13 11:43:48.755] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:43:48.756] [WARN] normal - GET /404
+[2015-11-13 11:43:48.757] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:43:48.758] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:48.758] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:43:48.758] [WARN] normal - GET /404
+[2015-11-13 11:43:48.762] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:43:48.762] [WARN] normal - GET /
+[2015-11-13 11:43:48.762] [WARN] normal - GET /404
+[2015-11-13 11:43:48.763] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:48.763] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:43:48.767] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:43:48.768] [WARN] normal - GET /
+[2015-11-13 11:43:48.768] [WARN] normal - GET /404
+[2015-11-13 11:43:48.769] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:48.769] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:43:48.771] [WARN] normal - GET /
+[2015-11-13 11:43:48.772] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:48.772] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:43:48.774] [WARN] normal - GET /
+[2015-11-13 11:43:50.931] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:43:50.931] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:43:50.934] [WARN] normal - GET /
+[2015-11-13 11:44:23.603] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:23.603] [INFO] dev-logger: - controllers/create.js
+[2015-11-13 11:44:23.605] [WARN] normal - GET /create
+[2015-11-13 11:44:23.632] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:44:23.633] [WARN] normal - GET /stylesheets/bootstrap-theme.css
+[2015-11-13 11:44:23.635] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:44:23.635] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:44:23.637] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:44:23.638] [WARN] normal - GET /stylesheets/bootstrap-modal.css
+[2015-11-13 11:44:23.638] [WARN] normal - GET /stylesheets/bootstrap-modal-bs3patch.css
+[2015-11-13 11:44:23.638] [WARN] normal - GET /stylesheets/index.css
+[2015-11-13 11:44:23.655] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:44:23.655] [WARN] normal - GET /404
+[2015-11-13 11:44:23.656] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:44:23.657] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:23.657] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:44:23.657] [WARN] normal - GET /404
+[2015-11-13 11:44:23.660] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:44:23.660] [WARN] normal - GET /404
+[2015-11-13 11:44:23.664] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:44:23.665] [WARN] normal - GET /
+[2015-11-13 11:44:23.665] [WARN] normal - GET /404
+[2015-11-13 11:44:23.667] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:23.667] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:44:23.669] [WARN] normal - GET /
+[2015-11-13 11:44:23.672] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:23.673] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:44:23.676] [WARN] normal - GET /
+[2015-11-13 11:44:23.677] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:23.677] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:44:23.679] [WARN] normal - GET /
+[2015-11-13 11:44:41.266] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:41.506] [INFO] normal - POST /upload
+[2015-11-13 11:44:43.074] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:43.319] [INFO] normal - POST /create
+[2015-11-13 11:44:46.898] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:46.899] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:44:46.903] [INFO] normal - GET /
+[2015-11-13 11:44:49.343] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:49.346] [INFO] normal - POST /article/getAll
+[2015-11-13 11:44:53.098] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:53.105] [INFO] normal - POST /article/getAll
+[2015-11-13 11:44:54.418] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:54.426] [INFO] normal - POST /article/getAll
+[2015-11-13 11:44:59.927] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:59.936] [INFO] normal - POST /article/getAll
+[2015-11-13 11:44:59.954] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:59.957] [INFO] normal - POST /article/getAll
+[2015-11-13 11:44:59.963] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:44:59.965] [INFO] normal - POST /article/getAll
+[2015-11-13 11:45:13.587] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:45:13.598] [INFO] normal - POST /article/getAll
+[2015-11-13 11:48:26.207] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:48:26.208] [WARN] normal - POST /article/getAll
+[2015-11-13 11:48:26.231] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:48:26.231] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:48:26.233] [INFO] normal - GET /login
+[2015-11-13 11:49:12.782] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:49:12.784] [WARN] normal - GET /
+[2015-11-13 11:49:12.792] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:49:12.792] [INFO] dev-logger: - controllers/login/login.js -- showLogin
+[2015-11-13 11:49:12.793] [WARN] normal - GET /login
+[2015-11-13 11:49:22.664] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:49:22.665] [INFO] dev-logger: - controllers/login/login.js  -- signIn
+[2015-11-13 11:49:22.669] [INFO] normal - POST /login
+[2015-11-13 11:49:22.881] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:49:22.881] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:49:22.884] [INFO] normal - GET /
+[2015-11-13 11:50:04.359] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:50:04.359] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:50:04.368] [INFO] normal - GET /
+[2015-11-13 11:50:30.737] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:50:30.737] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:50:30.747] [INFO] normal - GET /
+[2015-11-13 11:50:48.661] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:50:48.662] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:50:48.669] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:50:48.670] [WARN] normal - GET /404
+[2015-11-13 11:50:48.672] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:50:48.672] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:50:48.681] [INFO] normal - GET /
+[2015-11-13 11:51:18.603] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:51:18.603] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:51:18.618] [INFO] normal - GET /
+[2015-11-13 11:51:19.424] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:51:19.425] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:51:19.434] [WARN] normal - GET /
+[2015-11-13 11:52:00.034] [ERROR] dev-logger: - [error]:Error: Not Found
+    at e:\NewWork\git\thinking\routes.js:28:19
+    at Layer.handle [as handle_request] (e:\NewWork\git\thinking\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:312:13)
+    at e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:330:12)
+    at next (e:\NewWork\git\thinking\node_modules\express\lib\router\index.js:271:10)
+    at Immediate.<anonymous> (e:\NewWork\git\thinking\node_modules\express-session\index.js:437:7)
+    at Immediate.immediate._onImmediate (timers.js:428:18)
+    at processImmediate [as _immediateCallback] (timers.js:371:17)
+[2015-11-13 11:52:00.035] [WARN] normal - GET /stylesheets/bootstrap.css.map
+[2015-11-13 11:52:00.037] [INFO] dev-logger: - controllers/login/login.js  -- notAuthentication
+[2015-11-13 11:52:00.037] [WARN] normal - GET /404
+[2015-11-13 11:52:00.039] [INFO] dev-logger: - controllers/login/login.js  -- authentication
+[2015-11-13 11:52:00.039] [INFO] dev-logger: - controllers/index.js
+[2015-11-13 11:52:00.048] [INFO] normal - GET /

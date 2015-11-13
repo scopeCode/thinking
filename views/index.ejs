@@ -5,13 +5,12 @@
     <title>网站首页</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/stylesheets/bootstrap.css" rel="stylesheet">
-    <link href="/stylesheets/index.css" rel="stylesheet">
     <script src="/javascripts/jquery-1.10.2.js"></script>
     <script src="/javascripts/bootstrap.js"></script>
   </head>
   <body>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #bce8f1;border-color: #bce8f1;">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
@@ -24,42 +23,76 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/create">发布新文章</a></li>
-          <li ><a href="javascript:;;">文章管理</a></li>
+          <li><a href="javascript:void;" style="color: #31708f;">宝贝日记</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
   </nav>
 
-    <% if(data.length > 0) {%>
-      <section id="cd-timeline" class="cd-container" style="margin-top: 50px;">
-        <% for(var i=0; i<data.length; i++) { %>
-          <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture">
-              <img src="/images/cd-icon-picture.svg" alt="Picture">
-            </div>
-            <div class="cd-timeline-content">
-              <h2><%=data[i].title %></h2>
-              <p>
+  <div class="container" style="margin-top:80px;">
+    <div class="row">
+      <div class="col-md-10" role="main">
+        <% if(data.length > 0) {%>
+            <% for(var i=0; i<data.length; i++) { %>
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-md-9">
+                    <img src="/images/cd-icon-picture.svg" class="img-circle">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <%=data[i].title %>
+                  </div>
+                  <div class="col-md-3">
+                    <%=data[i].created %>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <img  class="img-responsive"  src="http://7xjik2.com1.z0.glb.clouddn.com/<%=data[i].img %>" alt="Picture">
+                <br/>
                 <%=data[i].desc %>
-                <img src="http://7xjik2.com1.z0.glb.clouddn.com/<%=data[i].img %>" alt="Picture">
-              </p>
-              <!--
-                <a href="javascript:;;" class="cd-read-more" target="_blank">阅读全文</a>
-              -->
-              <span class="cd-date"><%=data[i].created %></span>
+              </div>
             </div>
-          </div>
-        <% } %>
-      </section>
-
-      <div style="height: 20px;" ></div>
-      <% } else {%>
-        <div id="divProductDetailEmpty" class="empty">
-          <div class="ic-empty"></div>
-          <p class="text-center">暂无记录 <br/> <br/> <a class="btn btn-primary btn-lg" href="/">刷新本页</a></p>
+            <% } %>
+            <div style="height: 20px;" ></div>
+            <% } else {%>
+            <div id="divProductDetailEmpty" class="empty">
+              <div class="ic-empty"></div>
+              <p class="text-center">暂无记录 <br/> <br/> <a class="btn btn-primary btn-lg" href="/">刷新本页</a></p>
+            </div>
+            <%}%>
         </div>
-      <%}%>
+       <div class="col-md-2" role="complementary">
+         <div class="panel panel-info">
+           <div class="panel-heading">
+             <h3 class="panel-title">导航</h3>
+           </div>
+           <div class="panel-body">
+             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+               <ul class="nav bs-docs-sidenav">
+                 <li class="">
+                   <a href="/create">发布文章</a>
+                 </li>
+                 <li>
+                   <a href="javascript:;;">后台管理</a>
+                 </li>
+                 <li>
+                   <a href="javascript:;;">文字日记(200)</a>
+                 </li>
+                 <li>
+                   <a href="javascript:;;">图片日记(100)</a>
+                 </li>
+                 <li>
+                   <a href="javascript:;;">视频日记(20)</a>
+                 </li>
+               </ul>
+             </nav>
+           </div>
+         </div>
+       </div>
+    </div>
+  </div>
+
   <div id="divLoad" style="display:none;"><div class="load"><i></i>请稍候...</div><div class="modal-backdrop fade in"></div></div>
   <input id="currentPage" type="hidden" value="0" />
   <script type="text/javascript">
@@ -100,8 +133,8 @@
       window.onscroll = function(){
         if(getScrollTop() + getWindowHeight() == getScrollHeight()){
           if(!$("#divLoadMsg").is(":visible")){
-            $("#divLoad").show();
-            query();
+            //$("#divLoad").show();
+            //query();
           }
         }
       };
